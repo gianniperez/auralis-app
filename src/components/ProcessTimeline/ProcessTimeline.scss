@@ -1,0 +1,283 @@
+@use "../../styles/variables.scss" as *;
+@use "../../styles/mixins.scss" as *;
+
+.process-timeline {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+  margin-bottom: 50px;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    background-color: $gray-200;
+    width: 3px;
+    left: 0;
+    top: 0;
+    height: 100%;
+  }
+
+  &__step {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  &__text {
+    margin: 40px 10px 40px 20px;
+  }
+
+  &__active-bar-top,
+  &__active-bar-bottom {
+    position: absolute;
+    background-color: transparent;
+    width: 3px;
+    transition: background-color 0.3s ease;
+
+    &--active {
+      background-color: $gold-200;
+      @include glow-effect($gold-200);
+    }
+  }
+
+  &__active-bar-top {
+    top: -135px;
+    height: 100%;
+  }
+
+  &__active-bar-bottom {
+    top: calc(50% - 125px);
+    height: 50%;
+  }
+
+  &__active-bar-bridge {
+    display: none;
+  }
+
+  &__top-sheet-icon {
+    position: absolute;
+    top: -140px;
+    margin-left: -15px;
+    fill: $gold-200;
+    transform: rotate(180deg);
+    @include glow-effect($gold-200);
+  }
+
+  &__bottom-sheet-icon {
+    position: absolute;
+    bottom: -10px;
+    margin-left: -15px;
+    fill: $gray-200;
+  }
+
+  &__star-icon {
+    position: absolute;
+    bottom: 25%;
+    margin-left: -15px;
+    fill: $gray-200;
+    transition: fill 0.3s ease;
+
+    &--active {
+      fill: $gold-200;
+      @include glow-effect($gold-200);
+    }
+  }
+
+  &__img {
+    width: 100%;
+    height: 100%;
+  }
+
+  @include from("md") {
+    margin: 80px 0;
+
+    &::before {
+      display: none;
+    }
+
+    &__step {
+      padding: 50px 0;
+    }
+
+    &__timeline {
+      position: absolute;
+      top: 0;
+      left: 5%;
+      right: 5%;
+      height: 100%;
+      z-index: -1;
+
+      &--even {
+        .process-timeline__active-bar-top {
+          right: 0;
+          left: auto;
+          width: 40px;
+          border-right: 3px solid $gray-200;
+          border-top: 3px solid $gray-200;
+          border-top-right-radius: 40px;
+        }
+
+        .process-timeline__active-bar-bottom {
+          right: 0;
+          left: auto;
+          width: 40px;
+          border-right: 3px solid $gray-200;
+          border-bottom: 3px solid $gray-200;
+          border-bottom-right-radius: 40px;
+        }
+
+        .process-timeline__active-bar-bridge {
+          left: 40px;
+          right: 40px;
+          bottom: 0;
+        }
+
+        .process-timeline__star-icon {
+          right: 0;
+          left: auto;
+          top: 50%;
+          transform: translate(50%, -50%);
+        }
+      }
+
+      &--odd {
+        .process-timeline__active-bar-top {
+          left: 0;
+          right: auto;
+          width: 40px;
+          border-left: 3px solid $gray-200;
+          border-top: 3px solid $gray-200;
+          border-top-left-radius: 40px;
+        }
+
+        .process-timeline__active-bar-bottom {
+          left: 0;
+          right: auto;
+          width: 40px;
+          border-left: 3px solid $gray-200;
+          border-bottom: 3px solid $gray-200;
+          border-bottom-left-radius: 40px;
+        }
+
+        .process-timeline__active-bar-bridge {
+          left: 40px;
+          right: 40px;
+          bottom: 0;
+        }
+
+        .process-timeline__star-icon {
+          left: 18px;
+          right: auto;
+          top: 50%;
+          transform: translate(-50%, -50%);
+        }
+      }
+
+      &--first.process-timeline__timeline--even {
+        .process-timeline__active-bar-top {
+          left: 50%;
+          right: 0;
+          width: auto;
+          border-top: 3px solid $gray-200;
+          border-top-right-radius: 40px;
+        }
+      }
+
+      &--last.process-timeline__timeline--odd {
+        .process-timeline__active-bar-bridge {
+          right: 50%;
+        }
+      }
+
+      &--last.process-timeline__timeline--even {
+        .process-timeline__active-bar-bridge {
+          left: 50%;
+        }
+      }
+    }
+
+    &__active-bar-top,
+    &__active-bar-bottom {
+      position: absolute;
+      width: 100%;
+      height: 50%;
+      background: none !important;
+      transition: border-color 0.3s ease;
+
+      &--active {
+        border-color: $gold-200 !important;
+        @include glow-effect($gold-200);
+      }
+    }
+
+    &__active-bar-top {
+      top: -1px;
+      height: calc(50% + 2px);
+    }
+
+    &__active-bar-bottom {
+      top: 50.2%;
+    }
+
+    &__active-bar-bridge {
+      display: block;
+      position: absolute;
+      height: 2px;
+      background-color: $gray-200;
+      transition: background-color 0.3s ease;
+      transform: translateY(1px);
+
+      &--active {
+        background-color: $gold-200 !important;
+        @include glow-effect($gold-200);
+      }
+    }
+
+    &__top-sheet-icon {
+      top: -16px;
+      left: 49%;
+      margin: 0;
+      transform: rotate(90deg);
+    }
+
+    &__bottom-sheet-icon {
+      bottom: -15px;
+      left: 49%;
+      margin: 0;
+      transform: rotate(-90deg);
+    }
+
+    &__content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 60px;
+      padding: 0 10%;
+
+      &--to-right {
+        flex-direction: row-reverse;
+      }
+
+      &--to-left {
+        flex-direction: row;
+      }
+    }
+
+    &__img {
+      width: 45%;
+    }
+
+    &__text {
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+  @include from(lg) {
+    &__text {
+      margin-right: 5vw;
+    }
+  }
+}

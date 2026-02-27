@@ -1,0 +1,65 @@
+@use "../../styles/variables.scss" as *;
+@use "../../styles/mixins.scss" as *;
+
+.card-slider-mobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+  width: 100vw;
+  overflow: hidden;
+
+  &__slider-viewport {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 0;
+  }
+
+  &__slider-track {
+    display: flex;
+    align-items: center;
+    gap: 0;
+  }
+
+  &__slide-item {
+    flex-shrink: 0;
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    transition:
+      transform 0.3s ease,
+      opacity 0.3s ease;
+    transform: scale(0.9);
+    opacity: 0.6;
+
+    &.card-slider-mobile__slide-item--active {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+  &__previous {
+    transform: rotate(180deg);
+    fill: $gold-100;
+    margin: 0 10px;
+    z-index: 10;
+    @include glow-effect($gold-100);
+  }
+
+  &__next {
+    fill: $gold-100;
+    margin: 0 10px;
+    z-index: 10;
+    @include glow-effect($gold-100);
+  }
+
+  @include from(md) {
+    margin: 0;
+    margin-bottom: 80px;
+
+    &__slide-item {
+      padding: 0;
+    }
+  }
+}

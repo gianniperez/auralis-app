@@ -1,0 +1,137 @@
+{
+  "heading": "Démosle vida a tus ideas",
+  "copy": "Cuéntame sobre tu proyecto o hazme una pregunta, Te responderé dentro de 1 o 2 días hábiles.",
+  "connectHeading": "Contáctame!",
+  "personalInfoFields": [
+    {
+      "name": "name",
+      "label": "Nombre",
+      "placeholder": "Ingrese su nombre",
+      "type": "text",
+      "required": true,
+      "validation": {
+        "required": "El nombre es obligatorio",
+        "minLength": {
+          "value": 2,
+          "message": "Debe tener al menos 2 caracteres"
+        }
+      }
+    },
+    {
+      "name": "email",
+      "label": "Email",
+      "placeholder": "Ingrese su email",
+      "type": "email",
+      "required": true,
+      "validation": {
+        "required": "El email es obligatorio",
+        "pattern": {
+          "value": "^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,}$",
+          "message": "Ingrese un email válido"
+        }
+      }
+    },
+    {
+      "name": "reason",
+      "label": "Motivo del contacto",
+      "options": [
+        { "value": "undefined", "label": "Indefinido" },
+        { "value": "order", "label": "Encargo de ilustración" },
+        { "value": "inquiry", "label": "Consulta" },
+        { "value": "other", "label": "Otro" }
+      ],
+      "type": "select",
+      "required": true,
+      "validation": {
+        "required": "El motivo del contacto es obligatorio"
+      }
+    }
+  ],
+  "orderDetailsFields": [
+    {
+      "name": "type",
+      "label": "Tipo de orden",
+      "options": [
+        { "value": "undefined", "label": "Indefinido" },
+        { "value": "characterDesign", "label": "Diseño de personajes" },
+        { "value": "portraits", "label": "Retratos" },
+        { "value": "gameArt", "label": "RPG & Arte de videojuegos" },
+        { "value": "bookIllustration", "label": "Portada para libros" },
+        { "value": "landscapes", "label": "Paisajes" },
+        { "value": "other", "label": "Otro" }
+      ],
+      "type": "select",
+      "required": true,
+      "validation": {
+        "required": "El tipo de orden es obligatorio"
+      }
+    },
+    {
+      "name": "description",
+      "label": "Descripción",
+      "placeholder": "Cuéntame tu idea! ¿Qué necesitas que ilustre para ti?",
+      "type": "textarea",
+      "required": true,
+      "validation": {
+        "required": "La descripción es obligatoria"
+      }
+    },
+    {
+      "name": "references",
+      "label": "Envíame referencias",
+      "placeholder": "Se acepta png, pdf, jpg, docx (<5mb)",
+      "options": [
+        { "value": "basicRange", "label": "< 50 USD" },
+        { "value": "standardRange", "label": "50 - 100 USD" },
+        { "value": "intermediateRange", "label": "100 - 250 USD" },
+        { "value": "advancedRange", "label": "250 - 500 USD" },
+        { "value": "premiumRange", "label": "500+ USD" }
+      ],
+      "type": "file"
+    }
+  ],
+  "estimationFields": [
+    {
+      "name": "budget",
+      "label": "Presupuesto estimado",
+      "options": [
+        { "value": "undefined", "label": "Indefinido" },
+        { "value": "basicRange", "label": "< 50 USD" },
+        { "value": "standardRange", "label": "50 - 100 USD" },
+        { "value": "intermediateRange", "label": "100 - 250 USD" },
+        { "value": "advancedRange", "label": "250 - 500 USD" },
+        { "value": "premiumRange", "label": "500+ USD" }
+      ],
+      "type": "select"
+    },
+    {
+      "name": "date",
+      "label": "Tiempo de entrega estimado",
+      "placeholder": "Selecciona una fecha",
+      "type": "date",
+      "validation": {
+        "minDateToday": "La fecha no puede ser anterior a hoy"
+      }
+    }
+  ],
+  "messageField": [
+    {
+      "name": "message",
+      "label": "Mensaje",
+      "placeholder": "Su mensaje aquí...",
+      "type": "textarea",
+      "required": true,
+      "validation": {
+        "required": "El mensaje es obligatorio"
+      }
+    }
+  ],
+  "checkbox": "Acepto que mis datos sólo se utilizarán para responder a mi consulta y no se compartirán con terceros.",
+  "success": {
+    "heading": "¡Éxito!",
+    "copy": "¡Gracias por compartir tu visión! Realmente aprecio tu tiempo y tu paciencia. </br></br> Me pondré en contacto contigo lo antes posible para discutir los próximos pasos.",
+    "cta": "Volver al inicio"
+  },
+  "continueCta": "Continuar",
+  "submitCta": "Enviar"
+}

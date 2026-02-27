@@ -1,0 +1,79 @@
+@use "../../styles/variables.scss" as *;
+@use "../../styles/mixins.scss" as *;
+
+.service-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $white;
+  border-radius: $border-radius-md;
+  color: $gray-500;
+  width: 100%;
+  padding: 30px;
+  padding-top: 120px;
+  margin-top: 80px;
+  text-align: center;
+  position: relative;
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__img-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border-radius: 150;
+    top: 0;
+    transform: translateY(-50%);
+  }
+
+  @include from("md") {
+    flex-direction: row;
+    align-items: stretch;
+    justify-self: center;
+    width: 90%;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+
+    &__info {
+      justify-content: center;
+      gap: 30px;
+      padding: 50px;
+      height: auto;
+      min-width: 50%;
+      flex: 1;
+    }
+
+    &__img-container {
+      display: flex;
+      justify-content: center;
+      height: auto;
+      min-width: 50%;
+      flex: 1;
+    }
+
+    &__img {
+      position: static;
+      border-radius: 20px 0 0 20px;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      transform: none;
+    }
+  }
+
+  @include from("lg") {
+    height: 860px;
+    margin: 50px 0;
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "heading": "Servicios",
+  "copy": "Elige tu servicio",
+  "filterAll": "Todos",
+  "servicesList": {
+    "portraits": "Retratos",
+    "characterDesign": "Diseño de Personajes",
+    "gameArt": "Arte para RPG y Videojuegos",
+    "bookIllustration": "Portada de Libros",
+    "landscapes": "Paisajes"
+  },
+  "cost": "Costo",
+  "duration": "Duración",
+  "cta": "Empezar un Proyecto"
+}

@@ -1,0 +1,29 @@
+@use "../../styles/variables.scss";
+@use "../../styles/mixins.scss" as *;
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  padding: 0 75px;
+  gap: 20px;
+
+  &__icon {
+    width: 230px;
+  }
+
+  &--center {
+    align-items: center;
+    text-align: center;
+  }
+
+  @include from(md) {
+    &__icon {
+      width: 400px;
+    }
+
+    .typography {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+  }
+}

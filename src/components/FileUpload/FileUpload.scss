@@ -1,0 +1,92 @@
+@use "../../styles/variables.scss" as *;
+@use "../../styles/mixins.scss" as *;
+
+.file-upload {
+  &__accept {
+    margin: 0 0 15px 10px;
+    font-size: 11px;
+    color: $gray-50;
+  }
+
+  &__file-preview {
+    justify-self: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px 10px;
+    position: relative;
+  }
+
+  &__preview {
+    position: relative;
+    aspect-ratio: 1/1;
+    width: 12vw;
+    height: 12vw;
+  }
+
+  &__btn {
+    background-color: $gold-200;
+    border-radius: 40px;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+
+  &__file-upload {
+    display: none;
+  }
+
+  &__icon-upload {
+    fill: $white;
+  }
+
+  &__icon-close {
+    cursor: pointer;
+    fill: $white;
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 10vw;
+    z-index: 99;
+    width: 10px;
+    height: 10px;
+  }
+
+  @include from(sm) {
+    &__file-preview {
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }
+
+  @include from(md) {
+    &__file-preview {
+      grid-template-columns: repeat(5, 1fr);
+    }
+    &__preview {
+      width: 16vw;
+      height: 16vw;
+    }
+    &__icon-close {
+      margin-top: 0.8vw;
+      margin-left: 14vw;
+      width: 12px;
+      height: 12px;
+    }
+  }
+
+  @include from(lg) {
+    &__preview {
+      width: 6vw;
+      height: 6vw;
+    }
+
+    &__icon-close {
+      margin-top: 0.3vw;
+      margin-left: 5vw;
+      width: 12px;
+      height: 12px;
+    }
+  }
+}

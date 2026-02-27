@@ -1,3 +1,65 @@
-@use "../../styles/variables.scss";
+@use "../../styles/variables.scss" as *;
+@use "../../styles/mixins.scss" as *;
+
 .button {
+  border-radius: $border-radius-md;
+  padding: 15px 20px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 200px;
+
+  &--primary {
+    color: $white;
+    background-image: linear-gradient(
+      90deg,
+      $magenta-300,
+      $gold-200,
+      $gold-300,
+      $gold-300
+    );
+    background-size: 300% 300%;
+    transition: all 0.5s ease-in-out;
+
+    &:hover {
+      animation: gradient-move 2s infinite linear;
+      transform: scale(1.05);
+    }
+
+    @keyframes gradient-move {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+  }
+
+  &--secondary {
+    @include glass-effect($border: 3px);
+    border: 3px solid $gold-100;
+    color: $gold-100;
+
+    .svg-icon {
+      fill: $gold-100;
+    }
+
+    &:hover {
+      @include glow-effect($gold-100, 24px);
+      @include glow-effect-text;
+      color: $gold-50;
+    }
+  }
+
+  @include from(md) {
+    font-weight: 600;
+  }
 }

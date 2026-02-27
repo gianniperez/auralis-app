@@ -1,0 +1,66 @@
+@use "./variables" as *;
+@use "./mixins" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font-family-base;
+  font-size: 14px;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: $white;
+  background: $grad-bg;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::-webkit-scrollbar-track {
+  //box-shadow: inset 0 0 5px $gray-200;
+  background: $gray-500;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $gray-200;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: $gray-300;
+}
+
+h1 {
+  font-family: $font-decorative;
+  background: $grad-primary;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+@include from(md) {
+  * {
+    font-size: 14px;
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+}

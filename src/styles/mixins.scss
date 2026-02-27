@@ -1,0 +1,62 @@
+@use "variables" as *;
+@use "sass:map";
+
+/**
+ * This mixin allows to generate reusable media queries based on a breakpoint map.
+ */
+@mixin from($size) {
+  $value: map.get($breakpoints, $size);
+
+  @if $value {
+    @media (min-width: #{$value}) {
+      @content;
+    }
+  } @else {
+    @warn "The breakpoint `#{$size}` does not exist on the map.";
+  }
+}
+
+/**
+ * This mixin allows to generate a glass effect.
+ */
+@mixin glass-effect($opacity: 0.3, $blur: 1px, $border: 1.5px) {
+  background: rgba(14, 0, 34, $opacity);
+  -webkit-backdrop-filter: blur($blur);
+  backdrop-filter: blur($blur);
+  border: $border solid rgba(227, 164, 110, 1);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
+
+  &:hover {
+    border: $border solid rgb(245 224 206);
+    background: rgba(14, 0, 34, 0.5);
+  }
+}
+
+/**
+ * This mixin allows to generate a glass effect.
+ */
+@mixin glass-effect-w($opacity: 0.3, $blur: 1px) {
+  background: rgba(14, 0, 34, $opacity);
+  -webkit-backdrop-filter: blur($blur);
+  backdrop-filter: blur($blur);
+  border: 1.5px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
+}
+
+/**
+ * This mixin allows to generate a glow effect.
+ */
+@mixin glow-effect($color, $blur: 12px) {
+  fill: $color;
+  filter: drop-shadow(0 0 $blur $color);
+  -webkit-font-smoothing: antialiased;
+}
+
+/**
+ * This mixin allows to generate a glow effect on texts.
+ */
+@mixin glow-effect-text($color: $gold-100, $blur: 12px) {
+  color: $color;
+  text-shadow: 1 0 8px $color;
+  -webkit-font-smoothing: antialiased;
+}

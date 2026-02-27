@@ -1,0 +1,64 @@
+@use "../../styles/variables.scss" as *;
+@use "../../styles/mixins.scss" as *;
+
+.faq-list {
+  @include glass-effect;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 80px;
+  min-height: 50px;
+  margin: 25px;
+  padding: 20px;
+  cursor: pointer;
+
+  &__label {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  &__action {
+    fill: $gold-100;
+    cursor: pointer;
+
+    &:hover {
+      fill: $gold-50;
+    }
+  }
+
+  &--open {
+    @include glass-effect;
+    border-radius: 40px;
+    padding-top: 35px;
+    cursor: default;
+
+    .faq-list__label {
+      margin-bottom: 30px;
+    }
+
+    h3 {
+      color: $gold-100;
+    }
+  }
+
+  @include from(md) {
+    padding: 40px;
+    margin: 25px 50px;
+
+    &__action,
+    &__icon {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  @include from(lg) {
+    margin: 25px 60px;
+  }
+}

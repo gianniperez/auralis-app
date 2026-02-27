@@ -1,0 +1,129 @@
+{
+  "heading": "Let's bring your ideas to life",
+  "copy": "Tell me more about your project or question, I'll get back to you within 1-2 business days.",
+  "connectHeading": "Connect with me!",
+  "personalInfoFields": [
+    {
+      "name": "name",
+      "label": "Name",
+      "placeholder": "Enter your name",
+      "type": "text",
+      "required": true,
+      "validation": {
+        "required": "Name is required",
+        "minLength": {
+          "value": 2,
+          "message": "Must be at least 2 characters"
+        }
+      }
+    },
+    {
+      "name": "email",
+      "label": "Email",
+      "placeholder": "Enter your email",
+      "type": "email",
+      "required": true,
+      "validation": {
+        "required": "Email is required",
+        "pattern": {
+          "value": "^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,}$",
+          "message": "Enter a valid email"
+        }
+      }
+    },
+    {
+      "name": "reason",
+      "label": "Reason for contact",
+      "options": [
+        { "value": "undefined", "label": "Undefined" },
+        { "value": "order", "label": "Illustration commission" },
+        { "value": "inquiry", "label": "Inquiry" },
+        { "value": "other", "label": "Other" }
+      ],
+      "type": "select",
+      "required": true,
+      "validation": {
+        "required": "Reason for contact is required"
+      }
+    }
+  ],
+  "orderDetailsFields": [
+    {
+      "name": "type",
+      "label": "Type of order",
+      "options": [
+        { "value": "undefined", "label": "Undefined" },
+        { "value": "characterDesign", "label": "Character Design" },
+        { "value": "portraits", "label": "Portraits" },
+        { "value": "gameArt", "label": "RPG & Video Game Art" },
+        { "value": "bookIllustration", "label": "Book Cover Illustration" },
+        { "value": "landscapes", "label": "Landscapes" },
+        { "value": "other", "label": "Other" }
+      ],
+      "type": "select",
+      "required": true,
+      "validation": {
+        "required": "Type of order is required"
+      }
+    },
+    {
+      "name": "description",
+      "label": "Description",
+      "placeholder": "Let me know your idea! What do you need me to illustrate for you?",
+      "type": "textarea",
+      "required": true,
+      "validation": {
+        "required": "Description is required"
+      }
+    },
+    {
+      "name": "references",
+      "label": "Send me references",
+      "placeholder": "png, pdf, jpg, docx accepted (<5mb)",
+      "type": "file"
+    }
+  ],
+  "estimationFields": [
+    {
+      "name": "budget",
+      "label": "Estimated Budget",
+      "options": [
+        { "value": "undefined", "label": "Undefined" },
+        { "value": "basicRange", "label": "< 50 USD" },
+        { "value": "standardRange", "label": "50 - 100 USD" },
+        { "value": "intermediateRange", "label": "100 - 250 USD" },
+        { "value": "advancedRange", "label": "250 - 500 USD" },
+        { "value": "premiumRange", "label": "500+ USD" }
+      ],
+      "type": "select"
+    },
+    {
+      "name": "date",
+      "label": "Estimated Time",
+      "placeholder": "Select a date...",
+      "type": "date",
+      "validation": {
+        "minDateToday": "Date cannot be in the past"
+      }
+    }
+  ],
+  "messageField": [
+    {
+      "name": "message",
+      "label": "Message",
+      "placeholder": "Your message here...",
+      "type": "textarea",
+      "validation": {
+        "required": "Message is required"
+      }
+    }
+  ],
+  "checkbox": "I agree that my data will only be used to respond to my inquiry and will not be shared with third parties.",
+  "success": {
+    "heading": "Success!",
+    "copy": "Thank you for sharing your vision! I truly appreciate your time and your patience. </br></br> I'll get back to you as soon as possible to to discuss the next steps.",
+    "cta": "Return Home"
+  },
+  "continueCta": "Continue",
+  "submitCta": "Submit"
+}

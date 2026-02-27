@@ -1,0 +1,36 @@
+@use "../../styles/variables.scss" as *;
+@use "../../styles/mixins.scss" as *;
+
+.home {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: -50px;
+
+  &__panel {
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__hero {
+    position: absolute;
+    top: 0;
+    z-index: -99;
+    height: 100%;
+    width: 100%;
+    aspect-ratio: 1/1;
+  }
+
+  @include from(md) {
+    margin-top: -100px;
+    &__panel {
+      bottom: 5vh;
+      left: 5vw;
+      position: absolute;
+    }
+  }
+}

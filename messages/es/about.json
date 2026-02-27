@@ -1,0 +1,31 @@
+{
+  "firstSection": {
+    "heading": "Donde la imaginación se convierte en magia",
+    "copy": "Auralis nació de mi deseo de traer a la vida esos mundos internos que a veces solo existen en tu memoria o en tu corazón. Mi misión es darle luz, forma y color a todas aquellas historias, ideas y emociones, para transformarlas en algo tangible y significativo.",
+    "pillars": [
+      {
+        "heading": "Identidad Emocional",
+        "subheading": "Ilustraciones con alma",
+        "copy": "No solo dibujamos, interpretamos la emoción detrás de tu historia para transformarla en una imagen con alma propia."
+      },
+      {
+        "heading": "Narrativa Visual",
+        "subheading": "Tu historia es la brújula",
+        "copy": "Brindamos coherencia y vida a tu universo, asegurando que cada pieza respete la identidad de tu narrativa."
+      },
+      {
+        "heading": "Estética Mística",
+        "subheading": "La magia está en los detalles",
+        "copy": "Transformamos tu idea en una experiencia tangible mediante una iluminación atmosférica, detalles cuidados y una estética única."
+      }
+    ]
+  },
+  "secondSection": {
+    "heading": "El Alma de Auralis",
+    "copy": "Auralis surge de la fusión de <i>Aura</i>, que representa la creatividad y la esencia de la imaginación, y <i>Lis</i>, inspirado en la flor de lis, un símbolo de iluminación y transformación. <br/><br/> Esta combinación crea un mundo donde las emociones son la luz y la creatividad que dan forma a la realidad."
+  },
+  "thirdSection": {
+    "heading": "La Artista",
+    "copy": "Soy <i>Gianni</i>, la mano detrás de la magia. Soy una ilustradora argentina que busca que cada ilustración sea un reflejo de lo que querés contar. <br/><br/> Mi rol es ser el <i>puente entre tu imaginación y la realidad</i>, escuchando las histroias que habitan en tu mente para darles forma física, convirtiendo ideas abstractas en arte que respira, se siente, y realmente forma parte de algo que te pertenece."
+  }
+}

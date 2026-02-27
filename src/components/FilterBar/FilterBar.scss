@@ -1,0 +1,105 @@
+@use "../../styles/variables.scss" as *;
+@use "../../styles/mixins.scss" as *;
+
+.filter-bar {
+  &--select,
+  &__menu--tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+    border-radius: $border-radius-md;
+    height: 45px;
+    min-width: 200px;
+    padding: 0 20px;
+    position: relative;
+    background: rgba(14, 0, 34, 0.6);
+    border: 1.5px solid rgba(227, 164, 110, 1);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  &__menu--tabs {
+    flex-direction: row;
+
+    li {
+      padding: 0 10px;
+    }
+  }
+
+  &__label {
+    &--select {
+      @include glow-effect-text;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    &--tabs {
+      @include glow-effect-text;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+  }
+
+  &__icon {
+    @include glow-effect($gold-100);
+    transform: rotate(90deg);
+  }
+
+  &__menu {
+    &--select {
+      border-radius: $border-radius-sm;
+      position: absolute;
+      z-index: 9;
+      top: 100%;
+      width: 100%;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      margin-top: 5px;
+      $opacity: 0.8;
+      @include glass-effect($opacity);
+    }
+
+    &--tabs {
+      display: flex;
+    }
+  }
+
+  li {
+    cursor: pointer;
+  }
+
+  li:hover {
+    @include glow-effect-text($gold-200);
+  }
+
+  &__active {
+    @include glow-effect-text($gold-100);
+  }
+
+  @include from(md) {
+    &--tabs {
+      margin: 0 30px;
+    }
+
+    &__menu {
+      &--tabs {
+        height: 80px;
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+
+  @include from(lg) {
+    &__menu--tabs {
+      li {
+        padding: 0 20px;
+      }
+    }
+  }
+}

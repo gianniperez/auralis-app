@@ -1,0 +1,93 @@
+@use "../../styles/variables.scss" as *;
+@use "../../styles/mixins.scss" as *;
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: stretch;
+  width: 100%;
+  height: 100%;
+
+  &__back {
+    fill: $gold-200;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+
+  &__checkbox-container {
+    display: flex;
+    align-items: center;
+    user-select: none;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  &__checkbox {
+    position: absolute;
+    opacity: 0;
+    height: 24px;
+    width: 24px;
+  }
+
+  &__custom-checkmark {
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    margin-right: 12px;
+    position: relative;
+    border: 2px solid transparent;
+    background:
+      linear-gradient($amethyst-500, $amethyst-500) padding-box,
+      $grad-primary border-box;
+    transition: all 1s ease;
+    flex-shrink: 0;
+  }
+
+  &__checkbox:checked ~ &__custom-checkmark {
+    background: $magenta-200;
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 6px;
+      top: 2px;
+      width: 5px;
+      height: 10px;
+      border: solid 3px $white;
+      border-width: 0 2px 2px 0;
+      transform: rotate(45deg);
+    }
+  }
+
+  &__checkbox-label:hover,
+  &__custom-checkmark:hover {
+    opacity: 0.6;
+  }
+
+  &__checkbox-copy {
+    font-size: 11px;
+    color: $gray-50;
+  }
+
+  &__container {
+    @include glass-effect;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  &__btn {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  &--error {
+    .form-field {
+      background-color: $error;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+@use "../../styles/variables.scss" as *;
+@use "../../styles/mixins.scss" as *;
+
+.footer {
+  background: $grad-footer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 25px 0;
+  position: relative;
+
+  &__lis {
+    position: absolute;
+    top: -28px;
+  }
+
+  &__logo {
+    fill: $gold-100;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__copyright {
+    text-align: center;
+  }
+
+  @include from("md") {
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+
+    &__decorative-bar {
+      width: 100%;
+      height: 1px;
+      background: linear-gradient(
+        90deg,
+        transparent 0%,
+        rgba(255, 255, 255, 0.8) 50%,
+        transparent 100%
+      );
+    }
+  }
+}

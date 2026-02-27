@@ -1,0 +1,65 @@
+@use "../../../styles/variables.scss" as *;
+@use "../../../styles/mixins.scss" as *;
+
+.about-page {
+  &__pillars {
+    margin: 0 40px;
+    justify-self: center;
+    max-width: 600px;
+  }
+
+  @include from(sm) {
+    &__second-section,
+    &__third-section {
+      .image {
+        width: 350px;
+      }
+    }
+  }
+
+  @include from(md) {
+    &__second-section,
+    &__third-section {
+      justify-self: center;
+      width: 90%;
+      margin-top: -20px;
+
+      .image {
+        width: 400px;
+      }
+    }
+  }
+
+  @include from(lg) {
+    &__pillars {
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      margin-top: 20px;
+      justify-self: center;
+      width: 80%;
+      max-width: 100%;
+      gap: 20px;
+
+      & > :nth-child(2) {
+        margin-top: 100px;
+      }
+    }
+
+    &__first-section {
+      justify-self: center;
+      width: 60%;
+    }
+
+    &__second-section,
+    &__third-section {
+      justify-self: center;
+      width: 80%;
+      margin-top: -100px;
+      .image {
+        width: 50%;
+        max-width: 600px;
+      }
+    }
+  }
+}

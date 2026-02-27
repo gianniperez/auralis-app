@@ -1,0 +1,42 @@
+@use "../../../styles/variables.scss" as *;
+@use "../../../styles/mixins.scss" as *;
+
+.contact-page {
+  margin-bottom: 40px;
+
+  &__connect-heading {
+    padding: 0 40px;
+    margin: 20px;
+  }
+
+  @include from(md) {
+    &__form {
+      margin: 0 40px;
+    }
+  }
+
+  @include from(lg) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    justify-self: center;
+    margin: 150px 40px;
+    margin-bottom: 200px;
+
+    &__heading {
+      margin: 0 !important;
+    }
+
+    &__info {
+      width: 50%;
+    }
+
+    &__form {
+      width: 50%;
+      height: 100%;
+      min-height: 100;
+      margin: 0 40px;
+    }
+  }
+}

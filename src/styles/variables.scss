@@ -1,0 +1,100 @@
+//Fonts
+@font-face {
+  font-family: "Berkshire Swash";
+  src: url("/fonts/berkshire-swash.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+$font-family-base: "Poppins", sans-serif;
+$font-decorative: "Berkshire Swash";
+$font-size-base: 14px;
+
+//Colors
+$white: #ffffff;
+$black: #000000;
+
+$gray-50: #d6d7d9;
+$gray-100: #b8bbbf;
+$gray-200: #898f98;
+$gray-300: #484d57;
+$gray-400: #2e323a;
+$gray-500: #1a1c21;
+
+$light-error: #ff7678;
+$error: #ff383c;
+$dark-error: #870306;
+
+$light-success: #93ff93;
+$success: #34c759;
+$dark-success: #1ca13d;
+
+$amethyst-50: #ded2ee;
+$amethyst-100: #bea7dd;
+$amethyst-200: #9d7acc;
+$amethyst-300: #7c4ebb;
+$amethyst-400: #211147;
+$amethyst-500: #0e0022;
+
+$magenta-50: #f7d7e4;
+$magenta-100: #efaec8;
+$magenta-200: #d95090;
+$magenta-300: #c6298c;
+$magenta-400: #821866;
+$magenta-500: #3f0540;
+
+$gold-50: #f5e0ce;
+$gold-100: #edc29e;
+$gold-200: #e3a46e;
+$gold-300: #da853d;
+$gold-400: #a14d20;
+$gold-500: #8c2c14;
+
+$grad-primary: linear-gradient(
+  90deg,
+  rgba(198, 41, 140, 1) 0%,
+  rgba(227, 164, 110, 1) 100%
+);
+
+$grad-accent: linear-gradient(
+  90deg,
+  rgba(227, 164, 110, 1) 0%,
+  rgba(245, 224, 206, 1) 100%
+);
+
+$grad-bg: radial-gradient(
+  circle,
+  rgba(33, 17, 71, 1) 0%,
+  rgba(14, 0, 34, 1) 100%
+);
+
+$grad-footer: linear-gradient(
+  145deg,
+  rgba(14, 0, 34, 1) 0%,
+  rgba(33, 17, 71, 1) 100%
+);
+
+// Breakpoints
+$breakpoints: (
+  sm: 375px,
+  // mobile
+  md: 768px,
+  // tablet
+  lg: 1200px, // desktop
+);
+
+// Spacing
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 32px;
+
+// Border
+$border-radius-sm: 20px;
+$border-radius-md: 40px;
+$border-radius-lg: 150px;
+
+// Shadow
+$shadow-sm: 0 1px 3px rgba(227, 164, 110, 0.1);
+$shadow-md: 0 4px 6px rgba(227, 165, 110, 0.15);
