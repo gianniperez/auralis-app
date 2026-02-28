@@ -1,0 +1,11 @@
+@use "../../../styles/variables.scss" as *;
+@use "../../../styles/mixins.scss" as *;
+
+.artworks-page {
+  @include from(md) {
+    &__heading {
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+  }
+}

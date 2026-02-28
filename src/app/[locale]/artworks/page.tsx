@@ -12,8 +12,12 @@ import { TagType } from "@/types/TagType";
 import { getPrevIllustration, getNextIllustration } from "@/utils/pagination";
 import { useIsMobile } from "@/utils/isMobile";
 import Banner from "@/components/Banner/Banner";
+import { useBEM } from "@/utils/component/useBEM";
+import "./page.scss";
 
 export default function ArtworksPage() {
+  const b = useBEM("artworks-page");
+
   const tArtworks = useTranslations("Artworks");
   const tServices = useTranslations("Services");
 
@@ -83,7 +87,7 @@ export default function ArtworksPage() {
   }, []);
 
   return (
-    <div>
+    <div className={b("artworks-page")}>
       <Modal
         open={openIllustrationCard}
         onClose={() => setOpenIllustrationCard(false)}
@@ -97,6 +101,7 @@ export default function ArtworksPage() {
           <Banner srcImg="/images/banner-illustration.png" altImg="banner" />
         )}
         <Heading
+          classname={b("heading")}
           heading={tArtworks("heading")}
           copy={tArtworks("copy")}
           icon={isMobile}
