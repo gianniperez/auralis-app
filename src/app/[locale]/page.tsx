@@ -11,7 +11,6 @@ import "./page.scss";
 export default function Home() {
   const b = useBEM("home");
   const tHome = useTranslations("Home");
-  const tNavBar = useTranslations("NavBar");
   const isMobile = useIsMobile();
 
   return (
@@ -27,7 +26,7 @@ export default function Home() {
             centerAlign={isMobile}
           />
           {isMobile && (
-            <Link href={tNavBar("contact")}>
+            <Link href="/contact">
               <Button type="secondary" icon="arrow">
                 {tHome("contactCta")}
               </Button>

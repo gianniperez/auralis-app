@@ -1,7 +1,7 @@
 {
   "heading": "Démosle vida a tus ideas",
-  "copy": "Cuéntame sobre tu proyecto o hazme una pregunta, Te responderé dentro de 1 o 2 días hábiles.",
-  "connectHeading": "Contáctame!",
+  "copy": "Cuéntame sobre tu idea, tu proyecto o duda, te responderé dentro de 1-2 días hábiles.",
+  "connectHeading": "Sígueme!",
   "personalInfoFields": [
     {
       "name": "name",
@@ -33,7 +33,7 @@
     },
     {
       "name": "reason",
-      "label": "Motivo del contacto",
+      "label": "Motivo de contacto",
       "options": [
         { "value": "undefined", "label": "Indefinido" },
         { "value": "order", "label": "Encargo de ilustración" },
@@ -43,7 +43,7 @@
       "type": "select",
       "required": true,
       "validation": {
-        "required": "El motivo del contacto es obligatorio"
+        "required": "El motivo de contacto es obligatorio"
       }
     }
   ],
@@ -69,7 +69,7 @@
     {
       "name": "description",
       "label": "Descripción",
-      "placeholder": "Cuéntame tu idea! ¿Qué necesitas que ilustre para ti?",
+      "placeholder": "Cuéntame tu idea...",
       "type": "textarea",
       "required": true,
       "validation": {
@@ -118,7 +118,7 @@
     {
       "name": "message",
       "label": "Mensaje",
-      "placeholder": "Su mensaje aquí...",
+      "placeholder": "Ingrese su mensaje aquí...",
       "type": "textarea",
       "required": true,
       "validation": {

@@ -9,7 +9,7 @@
     "bookIllustration": "Book Cover Illustration",
     "landscapes": "Landscapes"
   },
-  "cost": "Project cost",
-  "duration": "Project duration",
-  "cta": "Start a Project"
+  "cost": "Estimated Cost",
+  "duration": "Estimated Time",
+  "cta": "Let's Create"
 }
