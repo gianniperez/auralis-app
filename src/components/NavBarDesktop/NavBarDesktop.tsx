@@ -37,12 +37,7 @@ export default function NavBarDesktop({
   return (
     <nav className={b()}>
       <Image classname={b("bg")} src="/images/sparkles-md.png" alt="sparkles" />
-      <div
-        className={className(
-          b("wrapper", isVisible ? "" : "hidden"),
-          b("wrapper", isScrolled ? "scrolled" : ""),
-        )}
-      >
+      <div className={className(b("wrapper", isVisible ? "" : "hidden"))}>
         <div className={b("container")}>
           <Link href="/" className={b("logo")}>
             <SvgIcon icon="isologo" size={50} />

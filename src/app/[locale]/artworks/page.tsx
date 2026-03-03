@@ -87,7 +87,7 @@ export default function ArtworksPage() {
   }, []);
 
   return (
-    <div className={b("artworks-page")}>
+    <div>
       <Modal
         open={openIllustrationCard}
         onClose={() => setOpenIllustrationCard(false)}
@@ -96,10 +96,11 @@ export default function ArtworksPage() {
       >
         {selectedIllustration && <Card card={selectedIllustration} />}
       </Modal>
-      <main>
+      <main className={b()}>
         {!isMobile && (
           <Banner srcImg="/images/banner-illustration.png" altImg="banner" />
         )}
+        <div className={b("content")}></div>
         <Heading
           classname={b("heading")}
           heading={tArtworks("heading")}

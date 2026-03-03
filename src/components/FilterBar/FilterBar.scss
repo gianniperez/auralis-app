@@ -93,6 +93,10 @@
         text-align: center;
       }
     }
+
+    li:not(.filter-bar__active, :hover) {
+      color: $gray-50;
+    }
   }
 
   @include from(lg) {

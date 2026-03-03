@@ -3,15 +3,18 @@ import CardSlider from "@/components/CardSlider/CardSlider";
 import Heading from "@/components/Heading/Heading";
 import ProcessTimeline from "@/components/ProcessTimeline/ProcessTimeline";
 import ServiceCard from "@/components/ServiceCard/ServiceCard";
-import Image from "@/components/Image/Image";
 import { getNavLinks } from "@/data/navLinks";
 import { IllustrationType } from "@/types/IllustrationType";
 import { ServiceType } from "@/types/ServiceType";
 import { useIsMobile } from "@/utils/isMobile";
 import { useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
+import { useBEM } from "@/utils/component/useBEM";
+import "./page.scss";
 
 export default function ServicesPage() {
+  const b = useBEM("services-page");
+
   const tNavBar = useTranslations("Navbar");
   const navLinks = getNavLinks(tNavBar);
   const tServices = useTranslations("Services");
@@ -79,15 +82,19 @@ export default function ServicesPage() {
    * Initial service.
    */
   useEffect(() => {
-    if (!selectedService) {
+    if (!selectedService && isMobile) {
       // eslint-disable-next-line react-hooks/set-state-in-effect
       setSelectedService(services[0]);
     }
-  }, [selectedService, services]);
+  }, [selectedService, services, isMobile]);
 
   return (
-    <main>
-      <Heading heading={tServices("copy")} icon={isMobile} />
+    <main className={b()}>
+      <Heading
+        classname={b("services-heading")}
+        heading={tServices("copy")}
+        icon={isMobile}
+      />
       <CardSlider
         cards={services}
         selectedCard={selectedService}
@@ -114,13 +121,11 @@ export default function ServicesPage() {
           />
         )}
       </CardSlider>
-      {!isMobile && (
-        <Image src="/images/lis.png" alt="lis" width={600} height={60} />
-      )}
       <Heading
+        classname={b("workflow-heading")}
         heading={tWorkflow("heading")}
         copy={tWorkflow("copy")}
-        icon={isMobile}
+        icon={true}
       />
       <ProcessTimeline steps={steps} />
     </main>

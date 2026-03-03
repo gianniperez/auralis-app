@@ -1,0 +1,21 @@
+@use "../../../styles/mixins.scss" as *;
+
+.services-page {
+  &__services-heading {
+    margin-top: 100px;
+  }
+
+  &__workflow-heading {
+    margin: -20px 40px 40px 40px;
+  }
+
+  @include from(md) {
+    &__services-heading {
+      margin-top: 120px;
+    }
+
+    &__workflow-heading {
+      margin: 0 80px;
+    }
+  }
+}

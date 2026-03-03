@@ -9,6 +9,8 @@
   gap: 20px;
   padding: 25px 0;
   position: relative;
+  font-size: 14px;
+  color: $gray-50;
 
   &__lis {
     position: absolute;
@@ -30,7 +32,7 @@
     text-align: center;
   }
 
-  @include from("md") {
+  @include from("lg") {
     flex-direction: row;
     justify-content: center;
     gap: 80px;

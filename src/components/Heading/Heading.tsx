@@ -51,7 +51,7 @@ export default function Heading({
     >
       {imgSrc && <Image classname={b("img")} src={imgSrc} alt={imgAlt ?? ""} />}
       <div className={b("content")}>
-        {icon && <SvgIcon icon="gradLis" size={32} />}
+        {icon && <SvgIcon classname={b("icon")} icon="gradLis" size={32} />}
         <Typography tag="h1" text={heading} />
         {copy && <Typography tag="p" text={copy} />}
       </div>

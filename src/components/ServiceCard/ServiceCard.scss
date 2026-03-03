@@ -36,22 +36,45 @@
     transform: translateY(-50%);
   }
 
-  @include from("md") {
+  @include from(md) {
+    margin-top: 120px;
+  }
+
+  @include from(lg) {
+    display: flex;
     flex-direction: row;
     align-items: stretch;
     justify-self: center;
-    width: 90%;
-    height: 600px;
-    margin: 0;
+    width: 85%;
+    height: 750px;
+    margin: -60px 0 50px 0;
     padding: 0;
 
     &__info {
-      justify-content: center;
+      justify-content: space-between;
+      align-items: stretch;
       gap: 30px;
       padding: 50px;
       height: auto;
       min-width: 50%;
       flex: 1;
+
+      h1 {
+        font-size: 48px;
+      }
+
+      h3 {
+        font-size: 24px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+
+    &__btn {
+      width: 100%;
+      font-size: 18px;
     }
 
     &__img-container {
@@ -70,10 +93,5 @@
       object-fit: cover;
       transform: none;
     }
-  }
-
-  @include from("lg") {
-    height: 860px;
-    margin: 50px 0;
   }
 }

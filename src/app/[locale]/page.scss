@@ -28,7 +28,7 @@
     aspect-ratio: 1/1;
   }
 
-  @include from(md) {
+  @include from(lg) {
     margin-top: -100px;
     &__panel {
       bottom: 5vh;

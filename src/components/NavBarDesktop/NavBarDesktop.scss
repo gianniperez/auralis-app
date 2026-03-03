@@ -12,18 +12,16 @@
     flex-direction: column;
     width: 100%;
     z-index: 100;
+    background-color: rgba(33, 17, 71, 0.6);
     transition:
       transform 0.3s ease-in-out,
       background-color 0.3s ease,
       backdrop-filter 0.3s ease;
     will-change: transform;
     font-weight: 500;
-
-    &--scrolled {
-      background-color: rgba(11, 20, 60, 0.5);
-      -webkit-backdrop-filter: blur(10px);
-      backdrop-filter: blur(4px);
-    }
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(2px);
+    font-weight: 600;
 
     &--hidden {
       transform: translateY(-100%);
@@ -78,7 +76,7 @@
 
   &__icon-lis {
     position: absolute;
-    width: 150px;
+    width: 154px;
     margin-top: -25px;
   }
 

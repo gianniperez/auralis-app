@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import { ReactNode, useEffect, useRef } from "react";
 import { useBEM } from "@/utils/component/useBEM";
 import { ServiceType } from "@/types/ServiceType";
 import { useLocale } from "next-intl";
@@ -31,6 +31,25 @@ export default function CardSliderDesktop({
 
   const locale = useLocale();
 
+  const contentRef = useRef<HTMLDivElement>(null);
+  const isInitialMount = useRef(true);
+
+  useEffect(() => {
+    if (isInitialMount.current) {
+      isInitialMount.current = false;
+      return;
+    }
+
+    if (selectedCard && contentRef.current) {
+      setTimeout(() => {
+        contentRef.current?.scrollIntoView({
+          behavior: "smooth",
+          block: "center",
+        });
+      }, 200);
+    }
+  }, [selectedCard]);
+
   return (
     <div className={b()}>
       <div className={b("cards")}>
@@ -44,8 +63,8 @@ export default function CardSliderDesktop({
             >
               <Image
                 classname={b("img")}
-                width={200}
-                height={200}
+                width={180}
+                height={180}
                 borderRadius="lg"
                 src={card.imageUrl}
                 alt={card.title.en}
@@ -58,7 +77,11 @@ export default function CardSliderDesktop({
           );
         })}
       </div>
-      {children}
+      {children && (
+        <div ref={contentRef} className={b("content")}>
+          {children}
+        </div>
+      )}
     </div>
   );
 }

@@ -9,7 +9,7 @@ import { breakpoints } from "./Breakpoints";
 export const useIsMobile = () => {
   const [isMobile, setIsMobile] = useState(false);
   const handleChange = () =>
-    setIsMobile(window.innerWidth < breakpoints.tablet);
+    setIsMobile(window.innerWidth < breakpoints.desktop);
 
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect

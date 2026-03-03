@@ -1,7 +1,6 @@
 import { ReactNode, useState, useEffect } from "react";
 import { useBEM } from "@/utils/component/useBEM";
 import { useIsMobile } from "@/utils/isMobile";
-import { useIsTablet } from "@/utils/isTablet";
 import CardSliderMobile from "../CardSliderMobile/CardSliderMobile";
 import CardSliderDesktop from "../CardSliderDesktop/CardSliderDesktop";
 import { ServiceType } from "@/types/ServiceType";
@@ -39,7 +38,6 @@ export default function CardSlider({
 }: CardSliderProps) {
   const b = useBEM("card-slider");
   const isMobile = useIsMobile();
-  const isTablet = useIsTablet();
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -60,7 +58,7 @@ export default function CardSlider({
 
   return (
     <div className={b()}>
-      {isMobile || isTablet ? (
+      {isMobile ? (
         <CardSliderMobile
           cards={cards}
           currentIndex={currentIndex}

@@ -7,7 +7,6 @@ import { socialLinks } from "@/data/socialLinks";
 import { useTranslations } from "next-intl";
 import { useIsMobile } from "@/utils/isMobile";
 import { useBEM } from "@/utils/component/useBEM";
-import { useIsTablet } from "@/utils/isTablet";
 import "./page.scss";
 
 export default function ContactPage() {
@@ -15,11 +14,10 @@ export default function ContactPage() {
 
   const tContact = useTranslations("ContactForm");
   const isMobile = useIsMobile();
-  const isTablet = useIsTablet();
 
   return (
     <main>
-      {isMobile || isTablet ? (
+      {isMobile ? (
         <div className={b()}>
           <Heading
             classname={b("heading")}

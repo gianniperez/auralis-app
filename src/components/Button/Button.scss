@@ -3,13 +3,14 @@
 
 .button {
   border-radius: $border-radius-md;
-  padding: 15px 20px;
+  padding: 18px 20px;
   border: none;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 5px;
   font-weight: bold;
+  font-size: 14px;
   cursor: pointer;
   width: 200px;
 
@@ -60,6 +61,8 @@
   }
 
   @include from(md) {
+    width: 250px;
     font-weight: 600;
+    font-size: 16px;
   }
 }

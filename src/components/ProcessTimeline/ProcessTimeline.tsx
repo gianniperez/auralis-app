@@ -1,6 +1,6 @@
 "use client";
-
 import { useEffect, useRef, useState } from "react";
+import { motion } from "framer-motion";
 import { useBEM } from "@/utils/component/useBEM";
 import { IllustrationType } from "@/types/IllustrationType";
 import Heading from "@/components/Heading/Heading";
@@ -71,26 +71,61 @@ export default function ProcessTimeline({ steps }: ProcessTimelineProps) {
               stepRefs.current[index] = el;
             }}
           >
+            {/* Base Gray Timeline Skeleton */}
             <div className={b("timeline", layoutClasses)}>
-              <div
-                className={b("active-bar-top", [
-                  ...(isActive ? ["active"] : []),
-                ])}
-              />
-              <div
-                className={b("active-bar-bottom", [
-                  ...(index < activeIndex ? ["active"] : []),
-                ])}
-              />
-              <div
-                className={b("active-bar-bridge", [
-                  ...(index < activeIndex ? ["active"] : []),
-                ])}
-              />
+              <div className={b("active-bar-top")} />
+              <div className={b("active-bar-bottom")} />
+              <div className={b("active-bar-bridge")} />
               <SvgIcon
                 classname={b("star-icon", isActive ? "active" : undefined)}
                 icon="star"
                 size={32}
+              />
+            </div>
+
+            {/* Golden Animated Timeline Overlay */}
+            <div
+              className={b("timeline", layoutClasses)}
+              aria-hidden="true"
+              style={{ pointerEvents: "none" }}
+            >
+              <motion.div
+                className={b("active-bar-top", ["active"])}
+                initial={{ clipPath: "inset(0% 0% 100% 0%)" }}
+                animate={{
+                  clipPath: isActive
+                    ? "inset(0% 0% 0% 0%)"
+                    : "inset(0% 0% 100% 0%)",
+                }}
+                transition={{ duration: 0.5, ease: "easeOut" }}
+              />
+              <motion.div
+                className={b("active-bar-bottom", ["active"])}
+                initial={{ clipPath: "inset(0% 0% 100% 0%)" }}
+                animate={{
+                  clipPath:
+                    index < activeIndex
+                      ? "inset(0% 0% 0% 0%)"
+                      : "inset(0% 0% 100% 0%)",
+                }}
+                transition={{ duration: 0.5, ease: "easeOut" }}
+              />
+              <motion.div
+                className={b("active-bar-bridge", ["active"])}
+                initial={{
+                  clipPath: isEven
+                    ? "inset(0% 0% 0% 100%)"
+                    : "inset(0% 100% 0% 0%)",
+                }}
+                animate={{
+                  clipPath:
+                    index < activeIndex
+                      ? "inset(0% 0% 0% 0%)"
+                      : isEven
+                        ? "inset(0% 0% 0% 100%)"
+                        : "inset(0% 100% 0% 0%)",
+                }}
+                transition={{ duration: 0.5, ease: "easeOut", delay: 0.25 }}
               />
             </div>
             <div className={b("content", isEven ? "to-left" : "to-right")}>

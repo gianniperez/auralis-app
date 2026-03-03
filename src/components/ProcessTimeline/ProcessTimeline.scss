@@ -32,6 +32,7 @@
   &__active-bar-top,
   &__active-bar-bottom {
     position: absolute;
+    left: 0;
     background-color: transparent;
     width: 3px;
     transition: background-color 0.3s ease;
@@ -91,7 +92,7 @@
   }
 
   @include from("md") {
-    margin: 80px 0;
+    margin: 80px 50px;
 
     &::before {
       display: none;
@@ -135,7 +136,7 @@
         }
 
         .process-timeline__star-icon {
-          right: 0;
+          right: 1px;
           left: auto;
           top: 50%;
           transform: translate(50%, -50%);
@@ -168,7 +169,7 @@
         }
 
         .process-timeline__star-icon {
-          left: 18px;
+          left: 17px;
           right: auto;
           top: 50%;
           transform: translate(-50%, -50%);
@@ -224,7 +225,7 @@
     &__active-bar-bridge {
       display: block;
       position: absolute;
-      height: 2px;
+      height: 3px;
       background-color: $gray-200;
       transition: background-color 0.3s ease;
       transform: translateY(1px);
@@ -250,11 +251,28 @@
     }
 
     &__content {
-      display: flex;
       align-items: center;
       justify-content: center;
       gap: 60px;
       padding: 0 10%;
+      flex-direction: column;
+    }
+
+    &__text {
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+  @include from(md) {
+    &__text {
+      margin: 20px;
+    }
+  }
+
+  @include from(lg) {
+    &__content {
+      display: flex;
 
       &--to-right {
         flex-direction: row-reverse;
@@ -270,14 +288,8 @@
     }
 
     &__text {
-      padding: 0;
-      margin: 0;
-    }
-  }
-
-  @include from(lg) {
-    &__text {
       margin-right: 5vw;
+      margin: 0;
     }
   }
 }

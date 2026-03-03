@@ -4,6 +4,10 @@
 .contact-page {
   margin-bottom: 40px;
 
+  &__heading {
+    margin-top: 100px;
+  }
+
   &__connect-heading {
     padding: 0 40px;
     margin: 20px;
@@ -18,15 +22,11 @@
   @include from(lg) {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     justify-self: center;
-    margin: 150px 40px;
+    margin: 0 40px;
     margin-bottom: 200px;
-
-    &__heading {
-      margin: 0 !important;
-    }
 
     &__info {
       width: 50%;
