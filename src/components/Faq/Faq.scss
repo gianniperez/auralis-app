@@ -2,7 +2,7 @@
 @use "../../styles/mixins.scss" as *;
 
 .faq {
-  margin: 0 20px;
+  margin: 10px 20px;
   cursor: pointer;
 
   h4 {
@@ -30,6 +30,16 @@
     background: $white;
     opacity: 20%;
     margin: 18px 0;
+  }
+
+  h4:hover {
+    @include glow-effect-text;
+    color: $gold-100;
+  }
+
+  h4:hover + .svg-icon {
+    @include glow-effect($gold-100);
+    fill: $gold-100;
   }
 
   &--open {

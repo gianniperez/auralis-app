@@ -7,30 +7,30 @@
   align-items: center;
   text-align: center;
   margin: 0 20px 50px 20px;
-  gap: 5px;
+  gap: 10px;
 
   &__icon {
     margin-bottom: 30px;
   }
 
   h1 {
-    background: $white;
+    background: $grad-accent;
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
   h2 {
-    color: $gray-100;
-    margin-bottom: 20px;
+    font-weight: 500;
+    font-style: italic;
+    color: $white;
+  }
+
+  p {
+    color: $gray-50;
   }
 
   @include from(lg) {
     width: 400px;
-    gap: 10px;
-
-    h2 {
-      margin-bottom: 20px;
-    }
   }
 }

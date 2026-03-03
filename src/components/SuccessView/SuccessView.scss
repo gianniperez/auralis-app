@@ -12,6 +12,7 @@
   gap: 25px;
 
   &__success {
+    align-self: center;
     fill: $gold-100;
     @include glow-effect($gold-100);
 

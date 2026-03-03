@@ -79,7 +79,11 @@ export default function Form({
             <span className={b("checkbox-copy")}>{checkboxCopy}</span>
           </label>
         )}
-        <Button classname={b("btn")} type="primary" submit={true}>
+        <Button
+          classname={b(checkboxCopy ? "btn-down" : "btn")}
+          type="primary"
+          submit={true}
+        >
           {cta}
         </Button>
       </div>

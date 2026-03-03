@@ -77,7 +77,7 @@
   &__icon-lis {
     position: absolute;
     width: 154px;
-    margin-top: -25px;
+    margin-top: -24px;
   }
 
   &__decorative-bar {
@@ -101,7 +101,7 @@
 
   &__btn {
     padding: 10px 20px;
-    width: 200px;
+    width: 250px;
   }
 
   @include from(lg) {

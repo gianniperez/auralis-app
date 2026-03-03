@@ -2,11 +2,8 @@
 @use "../../../styles/mixins.scss" as *;
 
 .contact-page {
+  margin-top: 100px;
   margin-bottom: 40px;
-
-  &__heading {
-    margin-top: 100px;
-  }
 
   &__connect-heading {
     padding: 0 40px;
@@ -14,6 +11,8 @@
   }
 
   @include from(md) {
+    margin-top: 120px;
+
     &__form {
       margin: 0 40px;
     }
@@ -25,18 +24,20 @@
     justify-content: center;
     align-items: center;
     justify-self: center;
-    margin: 0 40px;
-    margin-bottom: 200px;
+    margin: 120px 40px 100px 40px;
+    min-height: 700px;
 
-    &__info {
-      width: 50%;
+    &__heading {
+      margin: 0;
+      h1 {
+        font-size: 44px !important;
+      }
     }
 
     &__form {
       width: 50%;
-      height: 100%;
-      min-height: 100;
       margin: 0 40px;
+      max-width: 510px;
     }
   }
 }

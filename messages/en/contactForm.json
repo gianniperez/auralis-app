@@ -121,7 +121,7 @@
   "checkbox": "I agree that my data will only be used to respond to my inquiry and will not be shared with third parties.",
   "success": {
     "heading": "Success!",
-    "copy": "Thank you for sharing your vision! I truly appreciate your time and your patience. </br></br> I'll get back to you as soon as possible to to discuss the next steps.",
+    "copy": "Thank you for sharing your vision! </br> I truly appreciate your time and your patience. </br></br> I'll get back to you as soon as </br> possible to discuss the next steps.",
     "cta": "Return Home"
   },
   "continueCta": "Continue",

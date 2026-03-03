@@ -2,7 +2,7 @@
 
 Auralis es una aplicación web multilingüe construida con Next.js, diseñada para como portfolio artístico. Cuenta con internacionalización, animaciones fluidas e integración de datos del lado del servidor.
 
-**🌍 Link al sitio:** [https://auralis-wine.vercel.app/](https://auralis-wine.vercel.app/)
+**Link al sitio:** [https://auralis-wine.vercel.app/](https://auralis-wine.vercel.app/)
 
 ## Características
 

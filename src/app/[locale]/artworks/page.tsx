@@ -11,7 +11,6 @@ import { getFilters } from "@/data/filters";
 import { TagType } from "@/types/TagType";
 import { getPrevIllustration, getNextIllustration } from "@/utils/pagination";
 import { useIsMobile } from "@/utils/isMobile";
-import Banner from "@/components/Banner/Banner";
 import { useBEM } from "@/utils/component/useBEM";
 import "./page.scss";
 
@@ -97,10 +96,6 @@ export default function ArtworksPage() {
         {selectedIllustration && <Card card={selectedIllustration} />}
       </Modal>
       <main className={b()}>
-        {!isMobile && (
-          <Banner srcImg="/images/banner-illustration.png" altImg="banner" />
-        )}
-        <div className={b("content")}></div>
         <Heading
           classname={b("heading")}
           heading={tArtworks("heading")}

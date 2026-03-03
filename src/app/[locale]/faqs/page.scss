@@ -10,4 +10,11 @@
       margin-top: 120px;
     }
   }
+
+  @include from(lg) {
+    &__faq-list {
+      justify-self: center;
+      width: 80%;
+    }
+  }
 }

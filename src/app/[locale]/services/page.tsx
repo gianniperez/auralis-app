@@ -82,11 +82,11 @@ export default function ServicesPage() {
    * Initial service.
    */
   useEffect(() => {
-    if (!selectedService && isMobile) {
+    if (!selectedService) {
       // eslint-disable-next-line react-hooks/set-state-in-effect
       setSelectedService(services[0]);
     }
-  }, [selectedService, services, isMobile]);
+  }, [selectedService, services]);
 
   return (
     <main className={b()}>

@@ -24,7 +24,7 @@ export default function FaqsPage() {
         icon={isMobile}
       />
       {faqList.map((faq: FaqType, index: number) => (
-        <div key={index}>
+        <div key={index} className={b("faq-list")}>
           <FaqList faqs={faq} icon={`faq${index + 1}` as IconType} />
         </div>
       ))}
