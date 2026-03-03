@@ -31,25 +31,6 @@ export default function CardSliderDesktop({
 
   const locale = useLocale();
 
-  const contentRef = useRef<HTMLDivElement>(null);
-  const isInitialMount = useRef(true);
-
-  useEffect(() => {
-    if (isInitialMount.current) {
-      isInitialMount.current = false;
-      return;
-    }
-
-    if (selectedCard && contentRef.current) {
-      setTimeout(() => {
-        contentRef.current?.scrollIntoView({
-          behavior: "smooth",
-          block: "center",
-        });
-      }, 200);
-    }
-  }, [selectedCard]);
-
   return (
     <div className={b()}>
       <div className={b("cards")}>
@@ -77,11 +58,7 @@ export default function CardSliderDesktop({
           );
         })}
       </div>
-      {children && (
-        <div ref={contentRef} className={b("content")}>
-          {children}
-        </div>
-      )}
+      {children && <div className={b("content")}>{children}</div>}
     </div>
   );
 }
