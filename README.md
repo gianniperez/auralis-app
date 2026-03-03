@@ -2,6 +2,8 @@
 
 Auralis es una aplicación web multilingüe construida con Next.js, diseñada para como portfolio artístico. Cuenta con internacionalización, animaciones fluidas e integración de datos del lado del servidor.
 
+**🌍 Link al sitio:** [https://auralis-wine.vercel.app/](https://auralis-wine.vercel.app/)
+
 ## Características
 
 - **Next.js 15 (App Router):** Server Components, Server Actions y enrutamiento optimizado.
@@ -77,7 +79,7 @@ Abre [http://localhost:3000](http://localhost:3000) en tu navegador para interac
 - `npm run generate` - Ejecuta la CLI de Plop. Ideal para integrar un nuevo componente que requiera SCSS BEM, tipos e integraciones automáticas.
   > **[MEJORA PENDIENTE]** Hace falta ampliar la documentación de los generadores Plop disponibles en el proyecto, para mantener mejor el estándar.
 
-### 📝 Guía de Estilos y Mejores Prácticas
+### Guía de Estilos y Mejores Prácticas
 
 Como este repositorio usa convenciones propias para la UI de alta fidelidad, te sugerimos seguir las siguientes pautas:
 
