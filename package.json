@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "cross-env NODE_OPTIONS=\"--require ./fix-dns.js\" next dev",
     "generate": "plop",
     "build": "next build",
     "start": "next start",
@@ -27,6 +27,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "baseline-browser-mapping": "^2.10.0",
+    "cross-env": "^10.1.0",
     "eslint": "^10.0.1",
     "eslint-config-next": "^0.2.4",
     "plop": "^4.0.4",

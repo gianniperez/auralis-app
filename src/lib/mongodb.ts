@@ -1,5 +1,10 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
+import dns from "dns";
 import { MongoClient } from "mongodb";
+
+// Node.js's DNS resolver may point to 127.0.0.1 (e.g. left by WSL/Docker/VPN).
+// Override with public DNS servers so mongodb+srv:// SRV lookups work.
+dns.setServers(["8.8.8.8", "8.8.4.4", "1.1.1.1"]);
 
 const uri = process.env.MONGODB_URI!;
 const options = {};
