@@ -1,15 +1,16 @@
 {
-  "heading": "Services",
-  "copy": "Choose your service",
+  "heading": "Services & Commissions",
+  "copy": "Every story deserves its own light. Choose the ideal format to materialize your universe.",
   "filterAll": "All",
   "servicesList": {
-    "portraits": "Portraits",
+    "portraits": "Fantasy Portraits",
     "characterDesign": "Character Design",
     "gameArt": "RPG & Video Game Art",
     "bookIllustration": "Book Cover Illustration",
-    "landscapes": "Landscapes"
+    "landscapes": "Landscapes & Worldbuilding"
   },
-  "cost": "Estimated Cost",
-  "duration": "Estimated Time",
-  "cta": "Get a Quote"
+  "cost": "Estimated Investment",
+  "duration": "Creation Timeline",
+  "paymentNote": "✦ International payments via PayPal & Payoneer.",
+  "cta": "Request a Quote"
 }

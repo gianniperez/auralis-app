@@ -1,4 +1,12 @@
 {
   "heading": "Ilustraciones",
-  "copy": "Adéntrate en los universos de Auralis: personajes, escenas y paisajes creados a partir de la imaginación."
+  "copy": "Adéntrate en los universos de Auralis: personajes, escenas y mundos tejidos a partir de la imaginación.",
+  "tags": {
+    "All": "Todas",
+    "Character Design": "Diseño de Personajes",
+    "Portraits": "Retratos Fantásticos",
+    "RPG & Video Game Art": "RPG & Videojuegos",
+    "Book Cover Illustration": "Portadas de Libros",
+    "Landscapes": "Paisajes & Mundos"
+  }
 }

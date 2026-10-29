@@ -1,0 +1,449 @@
+[
+  {
+    "_id": 0,
+    "title": {
+      "en": "Guardian of the Glade Springs",
+      "es": "Guardiana del Manantial"
+    },
+    "description": {
+      "en": "Deep within the flooded forest, an ancient elf in tune with the elemental waters watches over the sanctuary where life quietly renews.",
+      "es": "En lo profundo del bosque sagrado, una elfa en comunión con las corrientes naturales custodia el manantial donde renace la vida."
+    },
+    "imageUrl": "https://res.cloudinary.com/dsirfm9gd/image/upload/v1770841432/2022-07-03_nvc4zv.png",
+    "tags": [
+      "All",
+      "Character Design"
+    ]
+  },
+  {
+    "_id": 9,
+    "title": {
+      "en": "The Awakening of Auralis",
+      "es": "El Despertar de Auralis"
+    },
+    "description": {
+      "en": "Auralis's little guide mouse scampers through the ancient woods; with every step, the sleeping forest awakens in bursts of starlight and living magic.",
+      "es": "La pequeña ratita guía de Auralis recorre el bosque antiguo; a cada paso que da, la arboleda dormida florece en destellos de magia y color."
+    },
+    "imageUrl": "https://res.cloudinary.com/dsirfm9gd/image/upload/v1770841442/2025-01-23_vcv1di.png",
+    "tags": [
+      "All",
+      "Book Cover Illustration",
+      "Landscapes"
+    ]
+  },
+  {
+    "_id": 6,
+    "title": {
+      "en": "Fleeting Melancholy",
+      "es": "Efímera Melancolía"
+    },
+    "description": {
+      "en": "The quiet fragility of a single tear and the gentle flutter of a butterfly meet in an intimate portrait steeped in nostalgia and silence.",
+      "es": "La fragilidad de una lágrima detenida en el tiempo y el vuelo sutil de una mariposa se encuentran en una mirada cargada de nostalgia y silencio."
+    },
+    "imageUrl": "https://res.cloudinary.com/dsirfm9gd/image/upload/v1770841431/2021-06-21_uxw9d0.png",
+    "tags": [
+      "All",
+      "Portraits"
+    ]
+  },
+  {
+    "_id": 10,
+    "title": {
+      "en": "Crown of Blooms",
+      "es": "Corona Silvestre"
+    },
+    "description": {
+      "en": "The quiet nobility of a leopard adorned with delicate wildflowers and a resting butterfly, featuring lifelike texture in every rosette and whisker.",
+      "es": "La imponencia y serenidad de un leopardo envuelto en una corona de flores y una mariposa, con un nivel minucioso de detalle en cada mancha y pelaje."
+    },
+    "imageUrl": "https://res.cloudinary.com/dsirfm9gd/image/upload/v1770841686/2020-07-20_oswrav.png",
+    "tags": [
+      "All",
+      "Portraits"
+    ]
+  },
+  {
+    "_id": 4,
+    "title": {
+      "en": "Courtly Grace",
+      "es": "Elegancia de la Corte"
+    },
+    "description": {
+      "en": "The majesty of fairy tale royalty brought to life through intricate gown embroidery, radiant gold accents, and an enchanting regal aura.",
+      "es": "La majestuosidad de la fantasía cortesana reflejada en un vestido de alta costura repleto de bordados finos, destellos áureos y una gracia etérea."
+    },
+    "imageUrl": "https://res.cloudinary.com/dsirfm9gd/image/upload/v1770841435/2022-01-31_mml39c.png",
+    "tags": [
+      "All",
+      "Book Cover Illustration"
+    ]
+  },
+  {
+    "_id": 26,
+    "title": {
+      "en": "Witching Night Flight",
+      "es": "Vuelo en Noche de Brujas"
+    },
+    "description": {
+      "en": "A mischievous and magical flight beneath the full moon: a little warlock soars atop his dragon through violet skies, glowing fel green embers, and autumn tree tops.",
+      "es": "Una noche mágica y pícara bajo la luna llena: un pequeño brujo sobrevuela el cielo nocturno a lomos de su dragón, entre sombras violetas, fuego vil esmeralda y el follaje carmesí de un árbol encantado."
+    },
+    "imageUrl": "https://res.cloudinary.com/dsirfm9gd/image/upload/v1770841430/2020-08-20_iigfnh.png",
+    "tags": [
+      "All",
+      "RPG & Video Game Art",
+      "Character Design"
+    ]
+  },
+  {
+    "_id": 18,
+    "title": {
+      "en": "Oceanic Gaze",
+      "es": "Mirada del Océano"
+    },
+    "description": {
+      "en": "Character portrait inspired by the lore of Atlantis, enveloped in deep turquoise waters and an ocean-deep gaze.",
+      "es": "Retrato inspirado en las leyendas de la Atlántida, con una gama de turquesas marinos y una mirada profunda como las mareas del océano."
+    },
+    "imageUrl": "https://res.cloudinary.com/dsirfm9gd/image/upload/v1770841441/2024-07-04_uuescn.png",
+    "tags": [
+      "All",
+      "Portraits",
+      "Character Design"
+    ]
+  },
+  {
+    "_id": 27,
+    "title": {
+      "en": "Flight from the Flames",
+      "es": "Hacia el Santuario Verde"
+    },
+    "description": {
+      "en": "Adrenaline and bittersweet relief in a daring escape: an elven archer and her winged mount cross into the lush sanctuary of the green woods, looking back with heartache at the embers and smoke left behind.",
+      "es": "Adrenalina y alivio en una huida desesperada: la arquera élfica y su corcel alado cruzan la frontera hacia la seguridad del bosque verde, dejando atrás con la mirada el humo y las llamas de su hogar en cenizas."
+    },
+    "imageUrl": "https://res.cloudinary.com/dsirfm9gd/image/upload/v1770841436/2023-02-11_khf03x.png",
+    "tags": [
+      "All",
+      "Character Design",
+      "Landscapes",
+      "RPG & Video Game Art",
+      "Book Cover Illustration"
+    ]
+  },
+  {
+    "_id": 14,
+    "title": {
+      "en": "Beneath the Starry Sky",
+      "es": "Bajo el Cielo Estrellado"
+    },
+    "description": {
+      "en": "Beneath a dreamlike sky painted in gold, pink, and violet, the Auralis mouse gazes at the stars, enchanted by the endless beauty of the horizon.",
+      "es": "Bajo un horizonte de tonos dorados, rosados y violetas, la ratita de Auralis contempla el firmamento, maravillada ante la inmensidad mágica del paisaje."
+    },
+    "imageUrl": "https://res.cloudinary.com/dsirfm9gd/image/upload/v1770841447/2025-04-15_t0vslk.png",
+    "tags": [
+      "All",
+      "Portraits",
+      "Character Design"
+    ]
+  },
+  {
+    "_id": 24,
+    "title": {
+      "en": "Autumn Calm",
+      "es": "Calma de Otoño"
+    },
+    "description": {
+      "en": "A sleek black cat resting upon crisp fallen leaves, looking upward with gentle, amber-lit eyes in a moment of pure autumn tranquility.",
+      "es": "Un gato negro recostado plácidamente sobre un manto de hojas secas, alzando su mirada clara hacia el cielo en un instante de serenidad pura."
+    },
+    "imageUrl": "https://res.cloudinary.com/dsirfm9gd/image/upload/v1770841433/2021-03-14_sactmg.png",
+    "tags": [
+      "All",
+      "Portraits"
+    ]
+  },
+  {
+    "_id": 17,
+    "title": {
+      "en": "Lux, Lady of Light",
+      "es": "Lux, Dama de la Luz"
+    },
+    "description": {
+      "en": "Fanart tribute to Lux from League of Legends reimagined through the ethereal atmosphere of Auralis, framed by a delicate rainbow prism.",
+      "es": "Homenaje a Lux (League of Legends) reinterpretada con la atmósfera etérea de Auralis, envuelta en un arcoíris de luz prismática."
+    },
+    "imageUrl": "https://res.cloudinary.com/dsirfm9gd/image/upload/v1770841441/2024-03-24_h0hnh2.png",
+    "tags": [
+      "All",
+      "RPG & Video Game Art",
+      "Character Design"
+    ]
+  },
+  {
+    "_id": 21,
+    "title": {
+      "en": "Heir of the Dragon",
+      "es": "Heredera del Dragón"
+    },
+    "description": {
+      "en": "Fanart tribute to Daenerys Targaryen with Drogon looming behind, cloaked in the black and crimson colors of the Targaryen banner.",
+      "es": "Fanart de Daenerys Targaryen escoltada por la silueta de Drogon en la penumbra, envuelta en el negro y rojo emblemáticos de la bandera Targaryen."
+    },
+    "imageUrl": "https://res.cloudinary.com/dsirfm9gd/image/upload/v1770841440/2024-02-19_dvdosw.png",
+    "tags": [
+      "All",
+      "Portraits",
+      "Character Design"
+    ]
+  },
+  {
+    "_id": 8,
+    "title": {
+      "en": "Golden Tears",
+      "es": "Lágrimas Doradas"
+    },
+    "description": {
+      "en": "From the quiet shadows of a barred window, a luminous gaze and tears of gold turn toward the outside world in yearning and wonder.",
+      "es": "Desde la penumbra de una habitación enrejada, una mirada iluminada por lágrimas doradas contempla el mundo exterior entre el anhelo y la ensoñación."
+    },
+    "imageUrl": "https://res.cloudinary.com/dsirfm9gd/image/upload/v1770841430/2020-05-07_x85wi1.png",
+    "tags": [
+      "All",
+      "Portraits"
+    ]
+  },
+  {
+    "_id": 5,
+    "title": {
+      "en": "Forest Explorer",
+      "es": "Aventurero del Bosque"
+    },
+    "description": {
+      "en": "A heartwarming tribute where a beloved dog embarks on a journey through the glowing trails and gentle peace of a fantasy woodland.",
+      "es": "Un homenaje entrañable donde la lealtad de un compañero canino se funde con los senderos luminosos y la calma de un bosque de fantasía."
+    },
+    "imageUrl": "https://res.cloudinary.com/dsirfm9gd/image/upload/v1770841434/2022-11-25_yer1jw.png",
+    "tags": [
+      "All",
+      "Portraits",
+      "Landscapes"
+    ]
+  },
+  {
+    "_id": 16,
+    "title": {
+      "en": "The Tavern Host",
+      "es": "La Posadera"
+    },
+    "description": {
+      "en": "Tabletop fantasy character: the welcoming tavern keeper surrounded by forged blades, travel chests, and the warm glow of torches.",
+      "es": "Personaje de fantasía y rol: la dueña de la taberna rodeada de cofres, armas y la calidez de las antorchas que dan la bienvenida a los viajeros."
+    },
+    "imageUrl": "https://res.cloudinary.com/dsirfm9gd/image/upload/v1770841443/2025-03-21_sz9mjh.png",
+    "tags": [
+      "All",
+      "RPG & Video Game Art",
+      "Character Design"
+    ]
+  },
+  {
+    "_id": 13,
+    "title": {
+      "en": "Winter Fair Romance",
+      "es": "Encuentro en Navidad"
+    },
+    "description": {
+      "en": "Book cover illustration capturing the tender romance and festive joy of a couple walking among glowing holiday stalls.",
+      "es": "Ilustración de portada editorial que captura el romance y la calidez de una pareja entre los puestos iluminados y el ambiente festivo de una feria de invierno."
+    },
+    "imageUrl": "https://res.cloudinary.com/dsirfm9gd/image/upload/v1770841447/2025-10-08_dweqam.png",
+    "tags": [
+      "All",
+      "Book Cover Illustration",
+      "Character Design",
+      "Landscapes"
+    ]
+  },
+  {
+    "_id": 1,
+    "title": {
+      "en": "Prismatic Shadows",
+      "es": "Destellos en la Penumbra"
+    },
+    "description": {
+      "en": "A portrait sculpted by contrasting rose and electric blue rim lights, evoking a vibrant yet enigmatic presence in the dark.",
+      "es": "Un retrato donde las luces intensas en rosa y azul esculpen las facciones del rostro, creando una presencia vibrante y misteriosa en la oscuridad."
+    },
+    "imageUrl": "https://res.cloudinary.com/dsirfm9gd/image/upload/v1770841431/2020-09-07_kkbjdc.png",
+    "tags": [
+      "All",
+      "Portraits"
+    ]
+  },
+  {
+    "_id": 2,
+    "title": {
+      "en": "Stand Against the Shadows",
+      "es": "Frente a las Sombras"
+    },
+    "description": {
+      "en": "A party of heroes stands firm against a horde of abyssal beasts in a dark-fantasy clash charged with spellfire, tension, and steel.",
+      "es": "Un grupo de héroes resiste el avance de criaturas abisales en un combate cargado de energía mágica, tensión y acero."
+    },
+    "imageUrl": "https://res.cloudinary.com/dsirfm9gd/image/upload/v1770841440/2023-10-03_zcs5zf.png",
+    "tags": [
+      "All",
+      "RPG & Video Game Art",
+      "Character Design"
+    ]
+  },
+  {
+    "_id": 7,
+    "title": {
+      "en": "Feline in the Woods",
+      "es": "Curiosidad Felina"
+    },
+    "description": {
+      "en": "Dappled sunlight filters through the trees as a curious cat explores the forest, rendered with lifelike softness in every strand of fur.",
+      "es": "Entre sombras de hojas y rayos de sol dorado, un gatito explora el bosque con ojos curiosos y un pelaje trabajado hebra por hebra."
+    },
+    "imageUrl": "https://res.cloudinary.com/dsirfm9gd/image/upload/v1770841433/2022-08-08_zqe3td.png",
+    "tags": [
+      "All",
+      "Portraits"
+    ]
+  },
+  {
+    "_id": 15,
+    "title": {
+      "en": "Rose Portrait",
+      "es": "Retrato en Rosa"
+    },
+    "description": {
+      "en": "Fantasy character portrait defined by soft pastel pink hair and clear, luminous eyes that express quiet depth.",
+      "es": "Retrato de personaje literario caracterizado por su suave cabello rosa y una mirada luminosa que transmite serenidad y misterio."
+    },
+    "imageUrl": "https://res.cloudinary.com/dsirfm9gd/image/upload/v1770841446/2025-04-07_otbqzj.png",
+    "tags": [
+      "All",
+      "Portraits",
+      "Character Design"
+    ]
+  },
+  {
+    "_id": 25,
+    "title": {
+      "en": "The Forest Explorer",
+      "es": "El Pequeño Explorador"
+    },
+    "description": {
+      "en": "A curious little rabbit wanders among golden leaves and autumn branches, pausing in quiet wonder along the woodland trail.",
+      "es": "Un conejito avanza curioso entre las ramas y hojas doradas de un bosque de otoño, deteniéndose a descubrir los secretos del sendero."
+    },
+    "imageUrl": "https://res.cloudinary.com/dsirfm9gd/image/upload/v1770841432/2021-12-06_ihrfxl.png",
+    "tags": [
+      "All",
+      "Book Cover Illustration"
+    ]
+  },
+  {
+    "_id": 11,
+    "title": {
+      "en": "Winter Smile",
+      "es": "Sonrisa de Invierno"
+    },
+    "description": {
+      "en": "A playful, smiling fox rests nestled within the white winter snow, its bright eyes bringing warmth to the frosty landscape.",
+      "es": "Un pequeño zorro de mirada tierna y pícara descansa sobre el manto blanco del invierno, abrigado por la calidez de su propio pelaje."
+    },
+    "imageUrl": "https://res.cloudinary.com/dsirfm9gd/image/upload/v1770841687/2020-10-29_cyglkv.png",
+    "tags": [
+      "All",
+      "Portraits"
+    ]
+  },
+  {
+    "_id": 23,
+    "title": {
+      "en": "Floral Companions",
+      "es": "Jardín de Violetas"
+    },
+    "description": {
+      "en": "Two bright-eyed cats nestled together in a whimsical floral haven, wrapped in gentle lilac hues and romantic storybook light.",
+      "es": "Dos gatitas de mirada brillante reposan en medio de un rincón floral de ensueño, rodeadas por tonos violetas y destellos de fantasía."
+    },
+    "imageUrl": "https://res.cloudinary.com/dsirfm9gd/image/upload/v1770841436/2022-08-10_g7atrc.png",
+    "tags": [
+      "All",
+      "Portraits"
+    ]
+  },
+  {
+    "_id": 22,
+    "title": {
+      "en": "Butterfly Glow",
+      "es": "Alas de Mariposa"
+    },
+    "description": {
+      "en": "Feminine beauty portrait featuring intricate butterfly eye makeup in delicate shades of peach, coral, and soft pink.",
+      "es": "Retrato femenino con un detallado maquillaje artístico de mariposa, jugando con tonalidades suaves en durazno, coral y rosa pastel."
+    },
+    "imageUrl": "https://res.cloudinary.com/dsirfm9gd/image/upload/v1770841437/2023-03-06_mduwkb.png",
+    "tags": [
+      "All",
+      "Portraits"
+    ]
+  },
+  {
+    "_id": 3,
+    "title": {
+      "en": "Tactical Breach",
+      "es": "Operación Táctica"
+    },
+    "description": {
+      "en": "Precision, tension, and adrenaline: a squad of operators mid-mission, capturing gritty realism, tactical gear, and combat focus.",
+      "es": "Tensión, precisión y adrenalina: un equipo de operadores en plena incursión táctica, destacando el realismo de los uniformes y el clima de combate."
+    },
+    "imageUrl": "https://res.cloudinary.com/dsirfm9gd/image/upload/v1770841438/2023-04-11_zeac4r.png",
+    "tags": [
+      "All",
+      "RPG & Video Game Art"
+    ]
+  },
+  {
+    "_id": 19,
+    "title": {
+      "en": "Garden Afternoon",
+      "es": "Tarde en el Jardín"
+    },
+    "description": {
+      "en": "A little cat resting peacefully on the fresh garden grass under soft afternoon sunlight, radiating warmth and playful calm.",
+      "es": "Un gatito descansando entre el césped verde bajo la luz suave de la tarde, transmitiendo ternura, calma y curiosidad."
+    },
+    "imageUrl": "https://res.cloudinary.com/dsirfm9gd/image/upload/v1770841441/2024-02-27_ese4bc.png",
+    "tags": [
+      "All",
+      "Portraits"
+    ]
+  },
+  {
+    "_id": 12,
+    "title": {
+      "en": "City Sunset",
+      "es": "Atardecer en la Ciudad"
+    },
+    "description": {
+      "en": "Cinematic urban scenery inspired by Grand Theft Auto streets, bathed in the rich amber glow of a setting sun.",
+      "es": "Escenario urbano inspirado en las calles y avenidas de Grand Theft Auto, bañado por la luz cálida y cinematográfica del atardecer."
+    },
+    "imageUrl": "https://res.cloudinary.com/dsirfm9gd/image/upload/v1770841687/2022-10-06_sqftnt.png",
+    "tags": [
+      "All",
+      "Landscapes"
+    ]
+  }
+]

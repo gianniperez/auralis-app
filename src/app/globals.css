@@ -1,0 +1,195 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: var(--font-lora), ui-serif, Georgia, Cambria, serif;
+  --font-display: var(--font-berkshire), serif;
+  --font-decorative: var(--font-berkshire), serif;
+
+  /* Abismo Cósmico y Superficies */
+  --color-abyss: #08040d;
+  --color-surface: #12091c;
+  --color-surface-elevated: #1a0f28;
+
+  /* Amatista Mágico */
+  --color-amethyst-300: #7c4ebb;
+  --color-amethyst-400: #211147;
+  --color-amethyst-500: #0e0022;
+
+  /* Oro Alquímico (Halos, Destellos y Runas) */
+  --color-gold-50: #fdf5e6;
+  --color-gold-100: #f5e0ce;
+  --color-gold-200: #edc29e;
+
+  /* Pergamino y Ceniza Mística (Texto y Bordes) */
+  --color-parchment: #edeae4;
+  --color-parchment-muted: #c9c3b8;
+  --color-parchment-dark: #8c857b;
+  --color-parchment-darker: #292426;
+
+  /* Resplandores Mágicos */
+  --shadow-glow-gold: 0 0 25px -4px rgba(237, 194, 158, 0.28);
+  --shadow-glow-amethyst: 0 0 30px -4px rgba(124, 78, 187, 0.35);
+  --shadow-card-elevated: 0 10px 30px -10px rgba(0, 0, 0, 0.7);
+}
+
+@layer utilities {
+  .glow-halo-gold {
+    background: radial-gradient(
+      circle at 50% 30%,
+      rgba(255, 235, 204, 0.16) 0%,
+      transparent 70%
+    );
+  }
+
+  .glow-halo-amethyst {
+    background: radial-gradient(
+      circle at 50% 30%,
+      rgba(124, 78, 187, 0.22) 0%,
+      transparent 70%
+    );
+  }
+
+  /* Glassmorphism Panel (con soporte iOS / Safari) */
+  .glass-panel {
+    background: rgba(18, 9, 28, 0.75);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(237, 194, 158, 0.12);
+  }
+}
+
+/* =========================================================================
+   ESTILOS HOLOGRÁFICOS AURALIS (Sistema 70/20/10)
+   ========================================================================= */
+
+/* ESTILO HOLOGRÁFICO A: Luz Astral Superior + Contenedor de Vidrio Cósmico */
+.holo-card-a {
+  position: relative;
+  background: linear-gradient(180deg, rgba(28, 14, 46, 0.85) 0%, rgba(12, 5, 20, 0.88) 100%);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(168, 127, 251, 0.25);
+  box-shadow:
+    0 10px 30px -8px rgba(0, 0, 0, 0.75),
+    inset 0 1px 16px rgba(124, 78, 187, 0.12);
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.holo-card-a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 6%;
+  right: 6%;
+  height: 1.5px;
+  background: linear-gradient(90deg, transparent 0%, #7c4ebb 22%, #fdf5e6 50%, #edc29e 78%, transparent 100%);
+  opacity: 0.9;
+  filter: drop-shadow(0 0 6px rgba(253, 245, 230, 0.6));
+  transition: all 0.35s ease;
+  pointer-events: none;
+  z-index: 20;
+}
+
+.holo-card-a:hover {
+  border-color: rgba(237, 194, 158, 0.45);
+  box-shadow:
+    0 14px 36px -6px rgba(124, 78, 187, 0.35),
+    0 0 20px -4px rgba(237, 194, 158, 0.2),
+    inset 0 1px 20px rgba(168, 127, 251, 0.2);
+}
+
+.holo-card-a:hover::before {
+  left: 2%;
+  right: 2%;
+  opacity: 1;
+  filter: drop-shadow(0 0 8px rgba(253, 245, 230, 0.9));
+}
+
+/* Píldora de Filtro Activo Holográfica (Ilustraciones) */
+.holo-pill-active {
+  background:
+    linear-gradient(180deg, #1c0e2e 0%, #0b0413 100%) padding-box,
+    linear-gradient(135deg, #edc29e 0%, #7c4ebb 50%, #fdf5e6 100%) border-box;
+  border: 1.2px solid transparent;
+  box-shadow:
+    0 0 16px -2px rgba(124, 78, 187, 0.5),
+    0 0 10px -2px rgba(237, 194, 158, 0.3);
+}
+
+/* Glassmorphism Input con Borde Holográfico en Focus */
+.glass-input {
+  background: rgba(8, 4, 13, 0.65);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1.2px solid rgba(237, 194, 158, 0.18);
+  color: var(--color-parchment);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-input:focus,
+.glass-input-active {
+  background:
+    linear-gradient(180deg, rgba(22, 11, 36, 0.92) 0%, rgba(8, 4, 13, 0.95) 100%) padding-box,
+    linear-gradient(135deg, #edc29e 0%, #7c4ebb 50%, #fdf5e6 100%) border-box;
+  border: 1.2px solid transparent;
+  box-shadow:
+    0 0 16px -2px rgba(124, 78, 187, 0.45),
+    0 0 10px -2px rgba(237, 194, 158, 0.25);
+  outline: none;
+}
+
+html {
+  background-color: #08040d;
+  color: #edeae4;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #08040d;
+  color: #edeae4;
+  font-family: var(--font-serif);
+  min-height: 100vh;
+}
+
+@keyframes stellarDrift {
+  0% {
+    transform: scale(1) translate(0, 0);
+  }
+  50% {
+    transform: scale(1.04) translate(-1.5%, 1.5%);
+  }
+  100% {
+    transform: scale(1) translate(1%, -1%);
+  }
+}
+
+@keyframes etherealFloat {
+  0%, 100% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.9;
+    transform: scale(1.06);
+  }
+}
+
+.animate-stellar-drift-1 {
+  animation: stellarDrift 28s ease-in-out infinite alternate;
+}
+
+.animate-stellar-drift-2 {
+  animation: stellarDrift 42s ease-in-out infinite alternate-reverse;
+}
+
+.animate-ethereal-float {
+  animation: etherealFloat 16s ease-in-out infinite alternate;
+}
+
+/* Ocultar cursor nativo en dispositivos con puntero fino (mouse) para usar CustomCursor */
+@media (hover: hover) and (pointer: fine) {
+  *, *::before, *::after, html, body, a, button, input, select, textarea {
+    cursor: none !important;
+  }
+}
+

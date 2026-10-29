@@ -1,21 +1,20 @@
 {
-  "heading": "FAQs",
-  "copy": "Do you have any questions? Check here.",
+  "heading": "Frequently Asked Questions",
+  "copy": "Have questions about timelines, licensing, or deliveries? Find all the answers here.",
+  "bottomCtaHeading": "Ready to ignite the spark of your story?",
+  "bottomCtaCopy": "If you have an idea in mind or need a custom quote for a special project, write to me and let’s shape it together.",
+  "bottomCtaButton": "Bring Your Idea to Life",
   "faqsList": [
     {
-      "heading": "Work Process",
+      "heading": "Process & Timelines",
       "questions": [
         {
           "heading": "Do I need to have a clear idea, or can you help me define it?",
           "copy": "You don’t need to have everything fully defined. You can share anything from a concrete description to an emotion or memory you’d like to capture. The more details and references you provide, the closer the result will be to your vision. At Auralis, collaboration is essential to transform a spark of inspiration into a fully realized world."
         },
         {
-          "heading": "How does the commission process work?",
-          "copy": "<b>Idea description:</b> Fill out the contact form with your proposal. If needed, I will ask additional questions and then provide a document with all the project details. Once everything is confirmed and the deposit is made, the process begins. <br/><br/> <b>Sketch approval:</b> I will send you an initial sketch for review and approval. This stage is where adjustments to composition, poses, clothing, or other overall elements are made. It’s important to finalize major changes here, as later adjustments may involve an additional cost. <br/><br/> <b>Revisions and updates:</b> Throughout the process, I will share progress updates so we can review the artwork together. The goal is to shape a piece that reflects your vision as closely as possible. <br/><br/> <b>Final delivery:</b> You will receive the completed artwork in high resolution, ready for digital use or print. Delivery is made via email or another method previously agreed upon."
-        },
-        {
           "heading": "How long does it take to complete an illustration?",
-          "copy": "Each piece is unique, and the timeline depends on complexity, level of detail, and the type of service requested. As a general guide: <br/><br/> <b>Portraits:</b>  1–2 weeks. <br/><br/> <b>Landscapes:</b> 1–2 weeks. <br/><br/> <b>Character design:</b> 2–4 weeks. <br/><br/> <b>Full scenes or covers:</b> 2–4 weeks. <br/><br/> These timeframes may vary depending on workload and project scale, but you will always receive an estimated delivery time before the commission begins."
+          "copy": "Every piece is handcrafted with dedication, so the timeline depends on complexity, detail, and format (typically between 1 and 4 weeks, as shown on each card in the <b>Services</b> section above). Before starting, you will always receive a clear estimated schedule for your project."
         }
       ]
     },
@@ -24,7 +23,7 @@
       "questions": [
         {
           "heading": "Can I commission a character based on myself, my pet, or my OC?",
-          "copy": "Yes. Whether it’s a portrait of you, your pet, or an original character, I can bring them to life within the world of Auralis."
+          "copy": "Absolutely! Whether it’s a fantasy portrait of you or someone special, a magical tribute to your pet, or your original character (OC) from an RPG campaign or novel, I can bring them to life within the atmosphere of Auralis."
         },
         {
           "heading": "Can you adapt your style to different aesthetics?",
@@ -32,7 +31,7 @@
         },
         {
           "heading": "Do you accept fanart commissions?",
-          "copy": "Yes, I do."
+          "copy": "Yes! I love reimagining characters and scenes from your favorite books, campaigns, films, or video games through the light and aesthetic of Auralis."
         }
       ]
     },
@@ -40,46 +39,46 @@
       "heading": "Pricing and Payments",
       "questions": [
         {
-          "heading": "How much does an illustration cost?",
-          "copy": "Every project is unique, and pricing is based on your requirements, the level of detail, the type of commission, and the estimated time. For an exact quote, you can contact me directly. As a reference, prices typically start around: <br/><br/> <b>Assets:</b> from 5 USD. <br/><br/> <b>Portraits:</b> from 20 USD. <br/><br/> <b>Landscapes:</b> from 30 USD. <br/><br/> <b>Character design:</b> from 50 USD. <br/><br/> <b>Full scenes or covers:</b> from 70 USD."
+          "heading": "How is the price of an illustration calculated?",
+          "copy": "Every project is unique, so quotes are tailored according to the type of artwork, number of characters, background complexity, and level of detail. In the <b>Services</b> section above, you can check the starting rates for each category. If your project requires a custom scope or a multi-piece bundle, reach out for a personalized proposal."
         },
         {
-          "heading": "How are payments made?",
-          "copy": "I offer two payment options to suit your needs: <br/><br/> <b>Single payment (recommended):</b> <br/><br/> The total amount is paid once all commission details are confirmed. This option streamlines the process and allows me to share progress without watermarks, so you can see every detail as the artwork evolves. <br/><br/> <b>Partial deliveries:</b> <br/><br/> 1. Before starting the sketch: 20% of the final price. <br/><br/> 2. After sketch approval: 50% of the final price. (Progress updates during this stage will be watermarked as a guarantee). <br/><br/> 3. Once the remaining balance is paid: final delivery of the artwork in high resolution. <br/><br/> <b>Payment methods:</b> PayPal, Payoneer, MercadoPago, and bank transfers. If you require another method, please feel free to ask."
+          "heading": "How do payments work?",
+          "copy": "I offer two payment modalities to suit your comfort: <br/><br/><b>Single payment (recommended):</b> The total amount is paid once all commission details are confirmed. This streamlines the workflow and allows me to share high-resolution progress updates without watermarks. <br/><br/><b>Staged payment:</b> <br/>1. <b>20% deposit</b> before starting the initial sketch. <br/>2. <b>50%</b> upon sketch approval (progress previews carry a watermark during this stage). <br/>3. <b>30% final balance</b> upon completion, prior to sending the high-resolution master files. <br/><br/><b>Accepted methods:</b> PayPal, Payoneer, MercadoPago, and bank transfer."
         },
         {
           "heading": "Do you offer refunds?",
-          "copy": "No. Since each piece is fully customized and requires dedicated time and effort, refunds are not available. However, there are revision stages throughout the process to ensure the final artwork meets your expectations."
+          "copy": "Because every artwork is custom-made and requires dedicated time, refunds are not available once work has begun. However, our collaborative process includes clear review milestones during the sketch and coloring phases to ensure you are thrilled with the final result."
         }
       ]
     },
     {
-      "heading": "Usage and Rights",
+      "heading": "Usage & Licensing",
       "questions": [
         {
-          "heading": "Is the artwork for personal use only, or does it include commercial rights?",
-          "copy": "By default, illustrations include a license for personal use only. If you wish to use the artwork commercially (for books, video games, merchandise, etc.), this must be specified during the commission process. A commercial license is available for an additional fee."
+          "heading": "Is the illustration for personal use only, or does it include commercial rights?",
+          "copy": "By default, commissions include a <b>personal use</b> license (personal social media, private RPG campaigns, personal prints, or gifts). If you intend to use the artwork commercially—such as a published book cover, indie game, streaming brand, or merchandise—please mention it in your inquiry so we can include the appropriate commercial license."
         },
         {
           "heading": "Can I request modifications after the artwork is finished?",
-          "copy": "Yes, post-delivery changes are possible but will incur an additional fee. To avoid extra costs, it is best to finalize all major adjustments during the sketch phase."
+          "copy": "Yes, post-delivery adjustments are possible for an additional fee depending on complexity. To protect your budget, I always recommend finalizing major structural changes during the sketch stage."
         }
       ]
     },
     {
-      "heading": "Delivery and Formats",
+      "heading": "Delivery & Formats",
       "questions": [
         {
-          "heading": "In what formats will I receive the illustrations?",
-          "copy": "All artworks are delivered in high resolution, ready for print or digital use. <br/><br/> <b>- Available formats:</b> JPG, PNG, PDF (upon request). <br/><br/> <b>- Color modes:</b> RGB or CMYK. <br/><br/> <b>- Resolution:</b> 300 dpi. <br/><br/> If you require a specific size or format, you can request it during the commission process."
+          "heading": "In what formats will I receive the artwork?",
+          "copy": "All pieces are delivered in master digital quality, ready for both screens and fine art printing:<br/><br/> <b>• Formats:</b> High-quality PNG, JPG, and PDF (upon request). <br/> <b>• Color profiles:</b> RGB (digital) or CMYK (print). <br/> <b>• Resolution:</b> 300 DPI in generous dimensions."
         },
         {
-          "heading": "Do you offer physical prints or only digital deliveries?",
-          "copy": "At the moment, I only provide digital deliveries."
+          "heading": "Do you offer physical shipping or digital delivery?",
+          "copy": "At the moment, all deliveries are <b>100% digital</b> at 300 DPI resolution, professionally prepared so you can print them at your trusted local print shop without losing a single glimmer of detail."
         },
         {
           "heading": "Do you work with international clients?",
-          "copy": "Yes. Auralis is an open space for dreamers worldwide."
+          "copy": "Yes! Auralis is a borderless atelier open to dreamers, authors, and creators from every corner of the world."
         }
       ]
     }

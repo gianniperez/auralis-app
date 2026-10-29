@@ -1,0 +1,50 @@
+[
+  {
+    "_id": 1,
+    "title": {
+      "es": "01. Comparte tu idea",
+      "en": "01. Share Your Idea"
+    },
+    "description": {
+      "es": "Completa el formulario de contacto con tu propuesta. Si es necesario, te haré preguntas adicionales y luego recibirás un documento con los detalles del encargo. Una vez confirmado y abonada la seña, comienza el proceso.",
+      "en": "Fill out the contact form with your proposal. If needed, I will ask additional questions and then provide a document with all the project details. Once everything is confirmed and the deposit is made, the process begins."
+    },
+    "imageUrl": "https://res.cloudinary.com/dsirfm9gd/image/upload/v1763409609/sketch_dgljaz.png"
+  },
+  {
+    "_id": 2,
+    "title": {
+      "es": "02. Boceto y Composición",
+      "en": "02. Sketch & Composition"
+    },
+    "description": {
+      "es": "Te enviaré un primer boceto para que revises y apruebes. En esta etapa se realizan los ajustes de composición, poses, vestimenta u otros aspectos generales. Es esencial hacer aquí las modificaciones grandes, ya que los cambios posteriores pueden tener un costo adicional.",
+      "en": "I will send you an initial sketch for review and approval. This stage is where adjustments to composition, poses, clothing, or other overall elements are made. It’s important to finalize major changes here, as later adjustments may involve an additional cost."
+    },
+    "imageUrl": "https://res.cloudinary.com/dsirfm9gd/image/upload/v1763409609/sketch2_mjukvq.png"
+  },
+  {
+    "_id": 3,
+    "title": {
+      "es": "03. Color y Luces",
+      "en": "03. Color & Lighting"
+    },
+    "description": {
+      "es": "A lo largo del proceso, te enviaré avances para que revisemos juntos la evolución de la obra. El objetivo es dar forma a una ilustración que represente exactamente lo que imaginas.",
+      "en": "Throughout the process, I will share progress updates so we can review the artwork together. The goal is to shape a piece that reflects your vision as closely as possible."
+    },
+    "imageUrl": "https://res.cloudinary.com/dsirfm9gd/image/upload/v1763409609/coloring_sjsgyg.png"
+  },
+  {
+    "_id": 4,
+    "title": {
+      "es": "04. Entrega Final",
+      "en": "04. Final Delivery"
+    },
+    "description": {
+      "es": "Recibirás la obra terminada en alta resolución, lista para usar o imprimir. La entrega se realiza por correo electrónico o por el medio acordado previamente.",
+      "en": "You will receive the completed artwork in high resolution, ready for digital use or print. Delivery is made via email or another method previously agreed upon."
+    },
+    "imageUrl": "https://res.cloudinary.com/dsirfm9gd/image/upload/v1770841434/2022-11-25_yer1jw.png"
+  }
+]

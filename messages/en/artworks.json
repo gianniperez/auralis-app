@@ -1,4 +1,12 @@
 {
   "heading": "Artworks",
-  "copy": "Step into the universes of Auralis: characters, scenes, and landscapes woven from imagination."
+  "copy": "Step into the universes of Auralis: characters, scenes, and worlds woven from imagination.",
+  "tags": {
+    "All": "All",
+    "Character Design": "Character Design",
+    "Portraits": "Fantasy Portraits",
+    "RPG & Video Game Art": "RPG & Video Game Art",
+    "Book Cover Illustration": "Book Covers",
+    "Landscapes": "Landscapes & Worlds"
+  }
 }

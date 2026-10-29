@@ -1,24 +1,28 @@
-import { LinkType } from "@/types/LinkType";
+export interface SocialLink {
+  label: string;
+  href: string;
+  iconName: "artStation" | "instagram" | "behance" | "tikTok" | "x" | "fiverr";
+}
 
-export const socialLinks: LinkType[] = [
+export const socialLinks: SocialLink[] = [
   {
-    label: "Art Station",
+    label: "ArtStation",
     href: "https://www.artstation.com/auralisart",
-    icon: "artStation",
+    iconName: "artStation",
   },
   {
     label: "Instagram",
     href: "https://www.instagram.com/auralisart_",
-    icon: "instagram",
+    iconName: "instagram",
   },
   {
     label: "Behance",
     href: "https://www.behance.net/auralis",
-    icon: "behance",
+    iconName: "behance",
   },
   {
-    label: "Tik Tok",
+    label: "TikTok",
     href: "https://www.tiktok.com/@auralisart",
-    icon: "tikTok",
+    iconName: "tikTok",
   },
 ];

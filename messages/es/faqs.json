@@ -1,21 +1,20 @@
 {
-  "heading": "Preguntas frecuentes",
-  "copy": "Tienes alguna duda? Consúltala aquí.",
+  "heading": "Preguntas Frecuentes",
+  "copy": "¿Tienes alguna duda sobre el proceso, licencias o entregas? Encuentra aquí todas las respuestas.",
+  "bottomCtaHeading": "¿Listo para encender la chispa de tu historia?",
+  "bottomCtaCopy": "Si tienes una idea en mente o necesitas una cotización a medida para un proyecto especial, escríbeme y démosle forma juntos.",
+  "bottomCtaButton": "Da vida a tu idea",
   "faqsList": [
     {
-      "heading": "Proceso de Trabajo",
+      "heading": "Proceso y Tiempos",
       "questions": [
         {
           "heading": "¿Necesito tener una idea clara o puedes ayudarme a definirla?",
           "copy": "No es necesario tenerlo todo definido. Puedes contarme desde una descripción concreta hasta una emoción o un recuerdo que quieras transmitir. Mientras más detalles y referencias compartas, más fiel será el resultado a tu visión. En Auralis, el proceso colaborativo es esencial para transformar una chispa inicial en un universo completo."
         },
         {
-          "heading": "¿Cómo funciona el proceso de encargo?",
-          "copy": "<b>1. Descripción de la idea:</b> Completa el formulario de contacto con tu propuesta. Si es necesario, te haré preguntas adicionales y luego recibirás un documento con los detalles del encargo. Una vez confirmado y abonada la seña, comienza el proceso. <br/><br/> <b>2. Aprobación del boceto:</b> Te enviaré un primer boceto para que revises y apruebes. En esta etapa se realizan los ajustes de composición, poses, vestimenta u otros aspectos generales. Es esencial hacer aquí las modificaciones grandes, ya que los cambios posteriores pueden tener un costo adicional. <br/><br/> <b>3. Revisiones y avances:</b> A lo largo del proceso, te enviaré avances para que revisemos juntos la evolución de la obra. El objetivo es dar forma a una ilustración que represente exactamente lo que imaginas. <br/><br/> <b>4. Entrega final:</b> Recibirás la obra terminada en alta resolución, lista para usar o imprimir. La entrega se realiza por correo electrónico o por el medio acordado previamente."
-        },
-        {
           "heading": "¿Cuánto tiempo lleva realizar una ilustración?",
-          "copy": "Cada obra es única y su tiempo depende de la complejidad, el nivel de detalle y el tipo de servicio solicitado. A modo orientativo: <br/><br/>- Retratos: 1 a 2 semanas. <br/><br/>- Creación de escenas o entornos: 1 a 2 semanas. <br/><br/>- Diseño de personajes: 2 a 4 semanas. <br/><br/>- Escenas completas o portadas: 2 a 4 semanas. <br/><br/> Estos plazos pueden variar según la carga de trabajo y la magnitud del proyecto, pero siempre recibirás un estimado al iniciar el encargo."
+          "copy": "Cada obra se teje a mano con dedicación, por lo que el plazo depende de la complejidad, el nivel de detalle y el formato elegido (generalmente entre 1 y 4 semanas, como puedes ver en cada tarjeta de la sección de <b>Servicios</b>). Antes de comenzar siempre recibirás un cronograma estimado claro para tu proyecto."
         }
       ]
     },
@@ -23,8 +22,8 @@
       "heading": "Personalización",
       "questions": [
         {
-          "heading": "¿Puedo encargar un personaje basado en mí / mi mascota / mi OC?",
-          "copy": "¡Por supuesto! Ya sea un retrato tuyo, de tu mascota o de un personaje original, puedo darles vida dentro del mundo de Auralis."
+          "heading": "¿Puedo encargar un personaje basado en mí, mi mascota o mi OC?",
+          "copy": "¡Por supuesto! Ya sea un retrato fantástico tuyo o de alguien especial, un homenaje mágico a tu mascota o el diseño de tu personaje original (OC) de rol o literatura, puedo darles vida dentro de la atmósfera de Auralis."
         },
         {
           "heading": "¿Puedes adaptar tu estilo a diferentes estéticas?",
@@ -32,7 +31,7 @@
         },
         {
           "heading": "¿Aceptas encargos de fanart?",
-          "copy": "Sí, acepto encargos de fanart."
+          "copy": "¡Sí! Me encanta reimaginar personajes y escenas de tus libros, campañas, películas o videojuegos favoritos bajo la luz y estética de Auralis."
         }
       ]
     },
@@ -40,16 +39,16 @@
       "heading": "Precios y Pagos",
       "questions": [
         {
-          "heading": "¿Cuánto cuesta una ilustración?",
-          "copy": "Cada proyecto es único, por lo que el presupuesto se calcula en función de tus requerimientos, el nivel de detalle, el tipo de encargo y el tiempo estimado. Para obtener un valor exacto, puedes solicitar una cotización personalizada. Como referencia, los precios comienzan aproximadamente en: <br/><br/>- Recursos: Desde 5 USD. <br/><br/>- Retratos: Desde 20 USD. <br/><br/>- Creación de escenas o entornos: Desde 30 USD. <br/><br/>- Diseño de personajes: Desde 50 USD. <br/><br/>- Escenas completas o portadas: Desde 70 USD."
+          "heading": "¿Cómo se calcula el valor de una ilustración?",
+          "copy": "Cada proyecto es único, por lo que el presupuesto se ajusta según el tipo de obra, la cantidad de personajes, la complejidad del fondo y el nivel de detalle. En la sección de <b>Servicios</b> de arriba encontrarás los valores base orientativos de cada categoría. Si tu proyecto requiere algo especial o un paquete de varias piezas, escríbeme para preparar una propuesta a tu medida."
         },
         {
           "heading": "¿Cómo se realizan los pagos?",
-          "copy": "Ofrezco dos modalidades de pago para adaptarme a tus necesidades: <br/><br/><b>Pago único (recomendado):</b> El monto total se abona una vez confirmados todos los detalles del encargo. Esta modalidad agiliza el proceso y permite trabajar con mayor fluidez, ya que las revisiones se comparten sin marca de agua, facilitando la observación detallada de la obra en proceso. <br/><br/><b>Pago por etapas:</b> <br/><br/>1. Antes de iniciar el boceto inicial: 20% del valor final. <br/><br/>2. Tras la aprobación del boceto: 50% del valor final. (En esta etapa, los avances se muestran con marca de agua como garantía). <br/><br/>3. Una vez abonado el saldo restante: entrega final de la obra en alta calidad. <br/><br/><b>Métodos de pago:</b> PayPal, Payoneer, MercadoPago y transferencias bancarias. Si necesitas otra alternativa, no dudes en consultarme."
+          "copy": "Ofrezco dos modalidades para adaptarme a tu comodidad: <br/><br/><b>Pago único (recomendado):</b> El monto total se abona al confirmar los detalles del encargo. Esta modalidad agiliza el proceso y permite compartir cada avance en máxima calidad y sin marcas de agua. <br/><br/><b>Pago por etapas:</b> <br/>1. <b>20% de seña</b> antes de iniciar el primer boceto. <br/>2. <b>50%</b> tras aprobar el boceto (en esta fase los avances llevan marca de agua como garantía). <br/>3. <b>30% restante</b> al finalizar, previo al envío de los archivos en alta resolución. <br/><br/><b>Métodos disponibles:</b> Tarifas en USD para encargos internacionales (PayPal / Payoneer). Si estás en Argentina, puedes consultar la cotización en pesos (ARS) y abonar mediante Mercado Pago o transferencia bancaria."
         },
         {
           "heading": "¿Ofreces devoluciones o reembolsos?",
-          "copy": "No. Dado que cada obra es personalizada y requiere mucho tiempo y dedicación, no se realizan devoluciones ni reembolsos. Sin embargo, durante el proceso siempre habrá instancias de revisión para asegurar que el resultado cumpla con tus expectativas."
+          "copy": "Al tratarse de obras personalizadas hechas a medida que requieren tiempo y dedicación exclusiva, no se realizan reembolsos una vez iniciado el trabajo. Sin embargo, nuestro proceso incluye instancias claras de revisión en boceto y color para garantizar que quedes completamente feliz con el resultado."
         }
       ]
     },
@@ -57,29 +56,29 @@
       "heading": "Usos y Derechos",
       "questions": [
         {
-          "heading": "¿La ilustración es solo para uso personal o incluye derechos comerciales?",
-          "copy": "De forma predeterminada, las ilustraciones incluyen únicamente licencia de uso personal. Si necesitas utilizarlas con fines comerciales (libros, videojuegos, merchandising, etc.), debes indicarlo durante el proceso de encargo. En ese caso, se aplicará una licencia de uso comercial con un costo adicional."
+          "heading": "¿La ilustración es para uso personal o incluye derechos comerciales?",
+          "copy": "Por defecto, los encargos incluyen licencia de <b>uso personal</b> (redes sociales personales, campañas privadas de rol, impresión personal o regalo). Si deseas utilizar la obra en un proyecto comercial —como la portada de un libro a la venta, un videojuego indie, streaming o merchandising—, indícalo en tu mensaje para incluir la licencia comercial correspondiente."
         },
         {
-          "heading": "¿Puedo pedir modificaciones después de que la obra esté terminada?",
-          "copy": "Sí, puedes solicitar cambios, aunque estarán sujetos a un cargo extra. Para evitar costos adicionales, es recomendable definir todos los ajustes importantes en la etapa de boceto."
+          "heading": "¿Puedo pedir modificaciones después de terminada la obra?",
+          "copy": "Sí, es posible realizar ajustes posteriores a la entrega final con un recargo adicional según la complejidad. Para cuidar tu presupuesto, siempre recomiendo definir los cambios estructurales durante la etapa de boceto."
         }
       ]
     },
     {
-      "heading": "Entregas y formatos",
+      "heading": "Entregas y Formatos",
       "questions": [
         {
           "heading": "¿En qué formatos entregas las ilustraciones?",
-          "copy": "Las obras se entregan en alta resolución, listas para imprimir o usar en digital.<br/><br/> <b>- Formatos disponibles:</b> JPG, PNG, PDF (a pedido). <br/><br/> <b>- Modos de color:</b> RGB o CMYK. <br/><br/> <b>- Resolución:</b> 300 dpi. <br/><br/> Si necesitas un tamaño o formato específico, puedes solicitarlo durante el proceso de encargo."
+          "copy": "Todas las piezas se entregan en máxima calidad digital, listas tanto para pantallas como para impresión fina:<br/><br/> <b>• Formatos:</b> PNG, JPG y PDF de alta calidad (a pedido). <br/> <b>• Perfiles de color:</b> RGB (digital) o CMYK (impresión). <br/> <b>• Resolución:</b> 300 DPI en dimensiones generosas."
         },
         {
-          "heading": "¿Ofreces envíos físicos (prints) o solo digitales?",
-          "copy": "Por el momento, solo realizo entregas digitales."
+          "heading": "¿Realizas envíos físicos o entregas digitales?",
+          "copy": "Por el momento todas las entregas son <b>100% digitales</b> en alta resolución (300 DPI), preparadas con calidad profesional para que puedas imprimirlas en tu laboratorio o imprenta de confianza sin perder ni un solo destello de detalle."
         },
         {
-          "heading": "¿Trabajas con clientes internacionales?",
-          "copy": "Sí, Auralis es un espacio abierto al mundo."
+          "heading": "¿Trabajas con clientes de otros países?",
+          "copy": "¡Sí! Auralis es un taller sin fronteras abierto a soñadores, autores y creadores de cualquier rincón del mundo."
         }
       ]
     }

@@ -1,0 +1,117 @@
+[
+  {
+    "_id": 0,
+    "title": {
+      "es": "Diseño de Personajes",
+      "en": "Character Design"
+    },
+    "description": {
+      "es": "Diseño visual de personajes originales (OCs) para novelas, campañas de D&D y juegos de rol. Enfocados en capturar personalidad, historia, vestimenta y aura mágica.",
+      "en": "Original character designs (OCs) for books, role-playing games, and D&D campaigns. Focused on capturing personality, backstory, and magical aesthetics."
+    },
+    "cost": {
+      "es": "A partir de 90 USD",
+      "en": "Starting at 90 USD"
+    },
+    "duration": {
+      "es": "1-2 semanas",
+      "en": "1-2 weeks"
+    },
+    "imageUrl": "https://res.cloudinary.com/dsirfm9gd/image/upload/v1770841432/2022-07-03_nvc4zv.png",
+    "tags": [
+      "Character Design"
+    ]
+  },
+  {
+    "_id": 1,
+    "title": {
+      "es": "Retratos Fantásticos",
+      "en": "Fantasy Portraits"
+    },
+    "description": {
+      "es": "Versiones fantásticas de personas, mascotas o personajes, reimaginados en el universo de Auralis. Ideal para regalos con profundo sentido y valor emocional.",
+      "en": "Fantasy reimaginings of people, pets, or characters set in the universe of Auralis. Ideal for meaningful, emotionally resonant gifts."
+    },
+    "cost": {
+      "es": "A partir de 45 USD",
+      "en": "Starting at 45 USD"
+    },
+    "duration": {
+      "es": "1-2 semanas",
+      "en": "1-2 weeks"
+    },
+    "imageUrl": "https://res.cloudinary.com/dsirfm9gd/image/upload/v1770841431/2020-09-07_kkbjdc.png",
+    "tags": [
+      "Portraits"
+    ]
+  },
+  {
+    "_id": 2,
+    "title": {
+      "es": "RPG & Arte de Videojuegos",
+      "en": "RPG & Video Game Art"
+    },
+    "description": {
+      "es": "Concept art, recursos visuales, cartas ilustradas y props mágicos para juegos de rol y videojuegos indie, transformando ideas en experiencias inmersivas.",
+      "en": "Concept art, visual assets, illustrated cards, and props for tabletop RPGs and indie games, turning ideas into immersive visual experiences."
+    },
+    "cost": {
+      "es": "A partir de 120 USD",
+      "en": "Starting at 120 USD"
+    },
+    "duration": {
+      "es": "2-3 semanas",
+      "en": "2-3 weeks"
+    },
+    "imageUrl": "https://res.cloudinary.com/dsirfm9gd/image/upload/v1770841440/2023-10-03_zcs5zf.png",
+    "tags": [
+      "RPG & Video Game Art"
+    ]
+  },
+  {
+    "_id": 3,
+    "title": {
+      "es": "Portada para Libros",
+      "en": "Book Cover Illustration"
+    },
+    "description": {
+      "es": "Ilustraciones para novelas de fantasía, cuentos o proyectos editoriales con enfoque narrativo de alto impacto, composición cinematográfica y atmósfera envolvente.",
+      "en": "Illustrations for fantasy novels, short stories, and editorial projects with high narrative impact, cinematic composition, and immersive atmosphere."
+    },
+    "cost": {
+      "es": "A partir de 150 USD",
+      "en": "Starting at 150 USD"
+    },
+    "duration": {
+      "es": "3-4 semanas",
+      "en": "3-4 weeks"
+    },
+    "imageUrl": "https://res.cloudinary.com/dsirfm9gd/image/upload/v1770841430/2020-05-07_x85wi1.png",
+    "tags": [
+      "Book Cover Illustration"
+    ]
+  },
+  {
+    "_id": 4,
+    "title": {
+      "es": "Paisajes & Worldbuilding",
+      "en": "Landscapes & Worldbuilding"
+    },
+    "description": {
+      "es": "Ilustraciones completas de mundos imaginarios, escenarios, arquitectura mística y paisajes envolventes para novelas, juegos o ambientación de campañas.",
+      "en": "Complete illustrations of imaginary worlds, mystical architecture, and immersive landscapes for books, games, or worldbuilding."
+    },
+    "cost": {
+      "es": "A partir de 80 USD",
+      "en": "Starting at 80 USD"
+    },
+    "duration": {
+      "es": "2-3 semanas",
+      "en": "2-3 weeks"
+    },
+    "imageUrl": "https://res.cloudinary.com/dsirfm9gd/image/upload/v1770841436/2023-02-11_khf03x.png",
+    "tags": [
+      "Landscapes"
+    ]
+  }
+]

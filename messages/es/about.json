@@ -1,17 +1,17 @@
 {
   "firstSection": {
-    "heading": "Donde la imaginación se convierte en magia",
-    "copy": "Auralis nació de mi deseo de traer a la vida esos mundos internos que a veces solo existen en tu memoria o en tu corazón. Mi misión es darle luz, forma y color a todas aquellas historias, ideas y emociones, para transformarlas en algo tangible y significativo.",
+    "heading": "El arte de dar vida a tus ideas",
+    "copy": "Auralis nació de mi deseo de traer a la vida esos mundos internos que a veces solo existen en tu memoria o en tu corazón. Mi misión es darle luz, forma y color a todas aquellas historias, ideas y emociones, para transformarlas en una obra tangible, viva y llena de significado.",
     "pillars": [
       {
         "heading": "Identidad Emocional",
         "subheading": "Ilustraciones con alma",
-        "copy": "No solo dibujamos, interpretamos la emoción detrás de tu historia para transformarla en una imagen con alma propia."
+        "copy": "No solo dibujamos: interpretamos la emoción profunda detrás de tu historia para transformarla en una pieza única con luz propia."
       },
       {
         "heading": "Narrativa Visual",
         "subheading": "Tu historia es la brújula",
-        "copy": "Brindamos coherencia y vida a tu universo, asegurando que cada pieza respete la identidad de tu narrativa."
+        "copy": "Damos coherencia y vida a tu universo, cuidando cada símbolo, indumentaria y atmósfera para honrar la esencia de tu relato."
       },
       {
         "heading": "Estética Mística",
@@ -21,11 +21,8 @@
     ]
   },
   "secondSection": {
-    "heading": "El Alma de Auralis",
-    "copy": "Auralis surge de la fusión de <i>Aura</i>, que representa la creatividad y la esencia de la imaginación, y <i>Lis</i>, inspirado en la flor de lis, un símbolo de iluminación y transformación. <br/><br/> Esta combinación crea un mundo donde las emociones son la luz y la creatividad que dan forma a la realidad."
-  },
-  "thirdSection": {
-    "heading": "La Artista",
-    "copy": "Soy <i>Gianni</i>, ilustradora argentina y la mente detrás de Auralis. Más que solo dibujar, mi trabajo es sentarme a tu lado a explorar esas ideas que a veces cuesta explicar con palabras. <br/><br/> Me especializo en capturar la esencia de tus personajes y mundos para que, al ver la ilustración terminada, sientas que siempre estuvo ahí, esperando a ser revelada."
+    "badge": "Mano a mano con la artista",
+    "heading": "El alma de Auralis",
+    "copy": "Soy <i>Gianni</i>, ilustradora argentina y creadora de este taller, nacido de la fusión de <i>Aura</i>, que representa la creatividad y la esencia de la imaginación, y <i>Lis</i>, inspirado en la flor de lis, un símbolo de iluminación y transformación.<br/><br/>Mi propósito es sentarme a tu lado a explorar esas ideas que a veces cuesta explicar con palabras. Me especializo en capturar la esencia de tus personajes y mundos para que, al ver la ilustración terminada, sientas que siempre estuvo ahí, esperando a ser revelada."
   }
 }

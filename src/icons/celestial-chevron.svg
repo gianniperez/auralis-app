@@ -1,0 +1,22 @@
+<svg width="40" height="32" viewBox="0 0 40 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Capa 1: Chevron / Alas arqueadas heráldicas apuntando hacia abajo -->
+  <path
+    d="M2 13 C 10 13, 16 19, 20 29 C 24 19, 30 13, 38 13 C 32 17, 26 25, 20 32 C 14 25, 8 17, 2 13 Z"
+    fill="currentColor"
+  />
+
+  <!-- Capa 2: Rombo / Brillito central estelar -->
+  <path
+    d="M20 11.5 L24 17.5 L20 23.5 L16 17.5 Z"
+    fill="currentColor"
+    opacity="0.9"
+  />
+
+  <!-- Capa 3: Núcleo esférico celestial con el mismo tono dorado -->
+  <circle
+    cx="20"
+    cy="5"
+    r="2.5"
+    fill="currentColor"
+  />
+</svg>

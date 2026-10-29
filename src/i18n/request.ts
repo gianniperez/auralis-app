@@ -8,11 +8,12 @@ export default getRequestConfig(async ({ requestLocale }) => {
     ? requested
     : routing.defaultLocale;
 
-  const [navbar, home, about, services, artworks, contactForm, faqs, footer] =
+  const [navbar, home, about, workflow, services, artworks, contactForm, faqs, footer] =
     await Promise.all([
       import(`../../messages/${locale}/navbar.json`),
       import(`../../messages/${locale}/home.json`),
       import(`../../messages/${locale}/about.json`),
+      import(`../../messages/${locale}/workflow.json`),
       import(`../../messages/${locale}/services.json`),
       import(`../../messages/${locale}/artworks.json`),
       import(`../../messages/${locale}/contactForm.json`),
@@ -22,16 +23,16 @@ export default getRequestConfig(async ({ requestLocale }) => {
 
   return {
     locale,
-    messages: Object.assign(
-      {},
-      navbar.default,
-      home.default,
-      about.default,
-      services.default,
-      artworks.default,
-      contactForm.default,
-      faqs.default,
-      footer.default,
-    ),
+    messages: {
+      Navbar: navbar.default,
+      Home: home.default,
+      About: about.default,
+      Workflow: workflow.default,
+      Services: services.default,
+      Artworks: artworks.default,
+      ContactForm: contactForm.default,
+      Faqs: faqs.default,
+      Footer: footer.default,
+    },
   };
 });

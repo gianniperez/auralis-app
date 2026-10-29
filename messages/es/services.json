@@ -1,15 +1,16 @@
 {
-  "heading": "Servicios",
-  "copy": "Elige tu servicio",
+  "heading": "Servicios & Comisiones",
+  "copy": "Cada historia merece su propia luz. Elige el formato ideal para materializar tu universo.",
   "filterAll": "Todo",
   "servicesList": {
-    "portraits": "Retratos",
+    "portraits": "Retratos Fantásticos",
     "characterDesign": "Diseño de Personajes",
     "gameArt": "Arte para RPG y Videojuegos",
     "bookIllustration": "Portada de Libros",
-    "landscapes": "Paisajes"
+    "landscapes": "Paisajes & Worldbuilding"
   },
-  "cost": "Costo Estimado",
-  "duration": "Duración Estimada",
-  "cta": "Obtener Presupuesto"
+  "cost": "Inversión estimada",
+  "duration": "Tiempo de creación",
+  "paymentNote": "✦ Tarifas en USD (PayPal / Payoneer). Si estás en Argentina, disponible en ARS (Mercado Pago / Transferencia).",
+  "cta": "Solicitar presupuesto"
 }
