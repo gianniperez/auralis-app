@@ -43,7 +43,7 @@ export async function POST(req: Request) {
 
     const data = await resend.emails.send({
       from: "Auralis Web <onboarding@resend.dev>",
-      to: "auralis.inbox@gmail.com",
+      to: process.env.CONTACT_DESTINATION_EMAIL || "giannina-b-perez@hotmail.com",
       replyTo: email,
       subject: `✦ Encargo Auralis de ${name}${service ? ` (${service})` : ""}`,
       html: emailHtml,

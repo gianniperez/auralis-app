@@ -170,7 +170,7 @@ export default function ContactDialog({
             exit={{ opacity: 0 }}
             className="flex flex-col items-center justify-center text-center py-8 gap-4"
           >
-            <div className="w-14 h-14 rounded-full bg-gold-200/20 border border-gold-200/50 flex items-center justify-center text-gold-100 shadow-[0_0_25px_rgba(237,194,158,0.5)]">
+            <div className="w-14 h-14 rounded-full flex items-center justify-center text-gold-100">
               <icons.success className="w-8 h-8 text-gold-100" />
             </div>
             <h4 className="font-display text-2xl text-gold-100">

@@ -193,3 +193,18 @@ body {
   }
 }
 
+
+
+/* Chrome, Edge, Safari autofill fix */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus {
+  -webkit-text-fill-color: var(--color-parchment) !important;
+  -webkit-box-shadow: 0 0 0px 1000px #12091c inset !important;
+  box-shadow: 0 0 0px 1000px #12091c inset !important;
+  caret-color: var(--color-gold-200) !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
