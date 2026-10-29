@@ -48,7 +48,7 @@ export default function Footer({ locale = "es" }: FooterProps) {
           className="inline-flex items-center justify-center mb-3 sm:mb-4 group select-none cursor-pointer"
           aria-label="Auralis - Volver al inicio"
         >
-          <icons.imagotype className="w-36 sm:w-48 h-auto text-gold-200 transition-all duration-300 group-hover:scale-105 group-hover:text-gold-100 drop-shadow-[0_0_15px_rgba(237,194,158,0.4)]" />
+          <icons.imagotype className="w-36 sm:w-48 h-auto text-gold-100 transition-all duration-300 group-hover:scale-105 group-hover:text-gold-100 drop-shadow-[0_0_15px_rgba(237,194,158,0.4)]" />
         </Link>
 
         {/* Social Links */}

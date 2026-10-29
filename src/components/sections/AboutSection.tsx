@@ -122,7 +122,7 @@ export default function AboutSection() {
           <motion.div
             animate={{ y: [0, -6, 0] }}
             transition={{ repeat: Infinity, duration: 5, ease: "easeInOut" }}
-            className="relative w-56 h-56 sm:w-72 sm:h-72 z-10 -ml-14 sm:-ml-20"
+            className="relative w-72 h-72 sm:w-94 sm:h-94 z-10 bottom-6 sm:bottom-0 -ml-10 sm:-ml-20"
           >
             <Image
               src="/images/the-artist.png"
@@ -143,7 +143,7 @@ export default function AboutSection() {
               ease: "easeInOut",
               delay: 0.5,
             }}
-            className="absolute right-2 sm:right-6 bottom-0 w-44 h-44 sm:w-56 sm:h-56 z-20"
+            className="absolute right-2 sm:right-6 bottom-0 w-52 h-52 sm:w-60 sm:h-60 z-20"
           >
             <Image
               src="/images/the-soul.png"
