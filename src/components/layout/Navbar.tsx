@@ -81,7 +81,7 @@ export default function Navbar({ onOpenContact, locale = "es" }: NavbarProps) {
               : "bg-transparent py-5"
           }`}
         >
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
+          <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
             {/* Logo & Brand Name */}
             <div className="w-44 shrink-0 flex items-center">
               <Link
@@ -145,7 +145,7 @@ export default function Navbar({ onOpenContact, locale = "es" }: NavbarProps) {
                 onClick={onOpenContact}
                 className="hidden! md:inline-flex!"
               >
-                {locale === "es" ? "Crear mi obra" : "Create My Artwork"}
+                {locale === "es" ? "Encargar obra" : "Commission"}
               </Button>
 
               {/* Mobile Menu Button */}

@@ -151,7 +151,7 @@ export default function NavbarMobile({
                   onOpenContact();
                 }}
               >
-                {locale === "es" ? "Crear mi obra" : "Create My Artwork"}
+                {locale === "es" ? "Encargar obra" : "Commission"}
               </Button>
 
               <div className="flex flex-col items-center gap-2.5">

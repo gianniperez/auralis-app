@@ -20,3 +20,12 @@ Documento de seguimiento para mejoras de contenido, copys narrativos y assets a 
 * **Objetivo:** Facilitar la contratación para clientes en Argentina sin sobrecargar la interfaz internacional.
 * **Acción realizada:**
   * [x] Incluir nota sutil bajo el bloque de inversión en `ServicesSection` y detalle ampliado en `faqs.json` (USD vía PayPal / Payoneer para el exterior, y cotización en ARS con Mercado Pago / Transferencia para Argentina).
+
+---
+
+## 📹 3. Respaldo Visual de Arte 100% Manual (Sin IA)
+
+* **Objetivo:** Reforzar el valor artesanal del taller frente al mercado de arte generado por IA.
+* **Acciones pendientes:**
+  * [ ] Incorporar timelapses o videos cortos de procesos (speedpaints en YouTube/Instagram embed o reels) en la sección "Sobre Auralis" o en el modal de detalles de cada obra como respaldo visual adicional.
+  * [ ] Evaluar añadir un sello o badge discreto "100% Handcrafted / No AI" en el footer o en la ficha técnica de las obras.

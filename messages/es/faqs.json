@@ -9,6 +9,10 @@
       "heading": "Proceso y Tiempos",
       "questions": [
         {
+          "heading": "¿Utilizas inteligencia artificial en tus ilustraciones?",
+          "copy": "<b>No, en ningún paso del proceso.</b> Cada obra se crea y pinta a mano trazo a trazo en software de pintura digital (Photoshop / Clip Studio Paint) a partir de bocetos originales. Si tu proyecto, libro o editorial requiere constancia de autoría 100% humana, puedo proveer archivos fuente organizados en capas y capturas de las etapas del proceso."
+        },
+        {
           "heading": "¿Necesito tener una idea clara o puedes ayudarme a definirla?",
           "copy": "No es necesario tenerlo todo definido. Puedes contarme desde una descripción concreta hasta una emoción o un recuerdo que quieras transmitir. Mientras más detalles y referencias compartas, más fiel será el resultado a tu visión. En Auralis, el proceso colaborativo es esencial para transformar una chispa inicial en un universo completo."
         },
